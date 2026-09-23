@@ -13,15 +13,16 @@ I build and evaluate tools that connect algorithms to observable results: recove
 | [QuantumNoiseLab](https://github.com/nazeeh111/QuantumNoiseLab) | Driven-qubit and decoherence experiments with analytical references | [Live lab](https://nazeeh111.github.io/QuantumNoiseLab/), reproducible exports, numerical convergence checks |
 | [DurableStore](https://github.com/nazeeh111/DurableStore) | Rust storage engine with a precise recovery contract | Checksummed log, process-crash tests, locking and compaction |
 | [PhotonRelay](https://github.com/nazeeh111/PhotonRelay) | Screen-to-camera file transfer and a reproducible channel lab | [Live app](https://nazeeh111.github.io/PhotonRelay/), normal-camera setup link, optical decoder tests, standalone downloads |
-| [EchoSight](https://github.com/nazeeh111/EchoSight) | Acoustic research backend and interactive room simulation | Local recording API, synthetic scan workflow, explicitly labeled simulated room demo |
+| [AgentLedger](https://github.com/nazeeh111/AgentLedger) | Local workflow execution with artifact verification and review gates | [Example report](https://nazeeh111.github.io/AgentLedger/), execution/resume regressions, optional Codex CLI adapter |
 
 ## Explore by field
 
 - **Physics and imaging:** [HiddenWave](https://github.com/nazeeh111/HiddenWave), [CornerVision](https://github.com/nazeeh111/CornerVision), [ApertureTrace](https://github.com/nazeeh111/ApertureTrace), [SpeckleVision](https://github.com/nazeeh111/SpeckleVision).
 - **Electrical engineering and sensing:** [RadarVolume](https://github.com/nazeeh111/RadarVolume), [RadarDepth](https://github.com/nazeeh111/RadarDepth), [SoundMap](https://github.com/nazeeh111/SoundMap), [WiPose](https://github.com/nazeeh111/WiPose).
 - **Algorithms and scientific software:** [ModelForge](https://github.com/nazeeh111/ModelForge) for Rust numerical modeling, [SequenceForge](https://github.com/nazeeh111/SequenceForge) for Python sequence algorithms, and MATLAB signal-processing workflows.
-- **Security and data tools:** [VaultLens](https://github.com/nazeeh111/VaultLens) audits password exports locally with redacted reports; [MarketWeave](https://github.com/nazeeh111/MarketWeave) provides Python/TypeScript prediction-market tools.
-- **In development:** computational chemistry and evidence-driven developer tooling. New work appears here once it has a runnable result and verification evidence.
+- **Security and data tools:** [VaultLens](https://github.com/nazeeh111/VaultLens) audits password exports locally; [MarketObservatory](https://github.com/nazeeh111/MarketObservatory) compares historical price scenarios; [MarketWeave](https://github.com/nazeeh111/MarketWeave) provides prediction-market interfaces.
+- **Computational chemistry:** [MoleculeBench](https://github.com/nazeeh111/MoleculeBench) compares molecular bond models and independently checks their numerical solutions.
+- **Acoustic interfaces:** [EchoSight](https://github.com/nazeeh111/EchoSight) combines a local recording backend with an explicitly simulated room-mapping demo.
 
 ## Engineering practice
 
