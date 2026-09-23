@@ -12,15 +12,15 @@ I build and evaluate tools that connect algorithms to observable results: recove
 | [MotionizedAudio](https://github.com/nazeeh111/MotionizedAudio) | Recovers a waveform from tiny motions in video | CPU tests, output-equivalence checks, CPU/CUDA build workflows |
 | [ModelForge](https://github.com/nazeeh111/ModelForge) | Rust polynomial calculus, regression, and scientific solvers | Examples, 342-test verification record, strict Clippy checks |
 | [MarketWeave](https://github.com/nazeeh111/MarketWeave) | Prediction-market data and execution-estimate tools | Python/TypeScript interfaces, offline tests, price-calculation comparisons |
-| [SequenceForge](https://github.com/nazeeh111/SequenceForge) | Sequence alignment, scoring matrices, and phylogenetic tools | Algorithm examples, baseline comparisons, package checks |
+| [PhotonRelay](https://github.com/nazeeh111/PhotonRelay) | Screen-to-camera file transfer and a reproducible channel lab | [Live app](https://nazeeh111.github.io/PhotonRelay/), 146 tests, bounded loss/recovery trials, standalone downloads |
 | [EchoSight](https://github.com/nazeeh111/EchoSight) | Acoustic research backend and interactive room simulation | Local recording API, synthetic scan workflow, explicitly labeled simulated room demo |
 
 ## Explore by field
 
 - **Physics and imaging:** [HiddenWave](https://github.com/nazeeh111/HiddenWave), [CornerVision](https://github.com/nazeeh111/CornerVision), [ApertureTrace](https://github.com/nazeeh111/ApertureTrace), [SpeckleVision](https://github.com/nazeeh111/SpeckleVision).
 - **Electrical engineering and sensing:** [RadarVolume](https://github.com/nazeeh111/RadarVolume), [RadarDepth](https://github.com/nazeeh111/RadarDepth), [SoundMap](https://github.com/nazeeh111/SoundMap), [WiPose](https://github.com/nazeeh111/WiPose).
-- **Algorithms and scientific software:** Rust numerical modeling, Python sequence algorithms, and MATLAB signal-processing workflows.
-- **Current research directions:** optical file transfer, quantum noise and open-system dynamics, computational chemistry, and durable storage systems. New work appears here once it has a runnable result and verification evidence.
+- **Algorithms and scientific software:** [ModelForge](https://github.com/nazeeh111/ModelForge) for Rust numerical modeling, [SequenceForge](https://github.com/nazeeh111/SequenceForge) for Python sequence algorithms, and MATLAB signal-processing workflows.
+- **Current research directions:** quantum noise and open-system dynamics, computational chemistry, and durable storage systems. New work appears here once it has a runnable result and verification evidence.
 
 ## Engineering practice
 
