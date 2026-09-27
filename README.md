@@ -15,7 +15,7 @@ I build and adapt software for 3D modeling, computational imaging, acoustic sens
 | **[PhotonRelay](https://github.com/nazeeh111/PhotonRelay)** | [Browser app](https://nazeeh111.github.io/PhotonRelay/) | Send files as animated QR codes and receive them in a browser. Scan a setup QR with an ordinary phone camera to open the receiver. Includes a simulation for testing recovery from lost frames. |
 | **[EchoAtlas](https://github.com/nazeeh111/EchoAtlas)** | [macOS download](https://github.com/nazeeh111/EchoAtlas/releases/latest) | Experimental acoustic gesture controls for macOS, built in Swift. Includes calibration, stale-audio rejection, explicit stop controls, and analyzer replay. Live-hand accuracy still needs testing. |
 | **[MotionizedAudio](https://github.com/nazeeh111/MotionizedAudio)** | [Known-motion experiment](https://github.com/nazeeh111/MotionizedAudio/blob/main/experiments/known_motion.py) | Recover sound from subpixel video motion. Generated signals probe frequency, amplitude ratios, silence, timing, and filter rejection through the CLI. |
-| **[DurableStore](https://github.com/nazeeh111/DurableStore)** | [Recovery contract](https://github.com/nazeeh111/DurableStore#readme) | Rust storage with a checksummed log, process-crash recovery, exclusive locks, atomic compaction, and injected failures. |
+| **[DurableStore](https://github.com/nazeeh111/DurableStore)** | [Source release](https://github.com/nazeeh111/DurableStore/releases/tag/v0.2.0) | Rust storage with atomic multi-key batches, checksummed recovery, exclusive locks and compaction. Includes process-crash tests and an outbox-state example. |
 
 ## Other projects
 
