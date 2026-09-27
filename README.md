@@ -19,7 +19,7 @@ I build and adapt software for 3D modeling, computational imaging, acoustic sens
 
 ## Other projects
 
-**AI and developer infrastructure:** [AgentLedger](https://github.com/nazeeh111/AgentLedger) runs bounded local task graphs, verifies artifacts, and records command results alongside optional Codex reviews. [VaultLens](https://github.com/nazeeh111/VaultLens) is an offline Go tool for auditing password exports with redacted output.
+**AI and developer infrastructure:** [ToolScope](https://github.com/nazeeh111/ToolScope) adapts MCP Inspector with browser, CLI, and terminal interfaces, bundled local examples, and saved tool-schema comparisons. It runs with a local backend. [AgentLedger](https://github.com/nazeeh111/AgentLedger) runs bounded local task graphs, verifies artifacts, and records command results alongside optional Codex reviews. [VaultLens](https://github.com/nazeeh111/VaultLens) is an offline Go tool for auditing password exports with redacted output.
 
 **Scientific and numerical software:** [ModelForge](https://github.com/nazeeh111/ModelForge) implements numerical modeling in Rust; [SequenceForge](https://github.com/nazeeh111/SequenceForge) covers sequence alignment and phylogenetics. [MoleculeBench](https://github.com/nazeeh111/MoleculeBench) compares molecular bond models against numerical references.
 
