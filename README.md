@@ -1,37 +1,32 @@
 # Nazeeh Abdul-Hadi
 
-**Software, signals, and scientific computing.**
+**Graphics, sensing, and systems software.**
 
-I build and evaluate tools that connect algorithms to observable results: recovering sound from motion, interpreting acoustic signals, modeling numerical systems, and making research software easier to run.
+I build and adapt software for 3D modeling, computational imaging, acoustic sensing, and developer workflows. The projects below include runnable applications, source code, and documented checks.
 
-## Start here
+[Open SolidFrame CAD](https://nazeeh111.github.io/SolidFrame/) · [Open LumaField](https://nazeeh111.github.io/LumaField/) · [Try optical transfer](https://nazeeh111.github.io/PhotonRelay/) · [Download EchoAtlas](https://github.com/nazeeh111/EchoAtlas/releases/latest) · [All repositories](https://github.com/nazeeh111?tab=repositories)
 
-| Project | What it does | What to inspect |
-| --- | --- | --- |
-| [EchoAtlas](https://github.com/nazeeh111/EchoAtlas) | Native macOS acoustic gesture workspace | [Download](https://github.com/nazeeh111/EchoAtlas/releases/latest), Swift source, calibration and stop-control tests |
-| [MotionizedAudio](https://github.com/nazeeh111/MotionizedAudio) | Recovers a waveform from tiny motions in video | CPU tests, output-equivalence checks, CPU/CUDA build workflows |
-| [QuantumNoiseLab](https://github.com/nazeeh111/QuantumNoiseLab) | Driven-qubit and decoherence experiments with analytical references | [Live lab](https://nazeeh111.github.io/QuantumNoiseLab/), reproducible exports, numerical convergence checks |
-| [DurableStore](https://github.com/nazeeh111/DurableStore) | Rust storage engine with a precise recovery contract | Checksummed log, process-crash tests, locking and compaction |
-| [PhotonRelay](https://github.com/nazeeh111/PhotonRelay) | Screen-to-camera file transfer and a reproducible channel lab | [Live app](https://nazeeh111.github.io/PhotonRelay/), normal-camera setup link, optical decoder tests, standalone downloads |
-| [AgentLedger](https://github.com/nazeeh111/AgentLedger) | Local workflow execution with artifact verification and review gates | [Example report](https://nazeeh111.github.io/AgentLedger/), execution/resume regressions, optional Codex CLI adapter |
+## Selected work
 
-## Explore by field
+| Project | Open it | Implementation |
+| :--- | :--- | :--- |
+| **[SolidFrame](https://github.com/nazeeh111/SolidFrame)** | [Browser CAD](https://nazeeh111.github.io/SolidFrame/) | An OpenCascade-based browser CAD adaptation with parametric sketches and editable feature history. Start from seven native fixture solids; edit dimensions, save local documents, or exchange STEP, IGES, BREP, STL, OBJ, and PLY. |
+| **[LumaField](https://github.com/nazeeh111/LumaField)** | [Browser viewer](https://nazeeh111.github.io/LumaField/) | A Gaussian-splat viewer adaptation. Load local `.splat` and binary `.ply` scenes, inspect camera files, save views, and export conversions. Includes a real captured scene and a generated architectural study. |
+| **[PhotonRelay](https://github.com/nazeeh111/PhotonRelay)** | [Browser app](https://nazeeh111.github.io/PhotonRelay/) | Transfer files from a screen to a camera. Normal-camera onboarding, optical decoding, loss recovery, and updates that preserve an active transfer. |
+| **[EchoAtlas](https://github.com/nazeeh111/EchoAtlas)** | [macOS download](https://github.com/nazeeh111/EchoAtlas/releases/latest) | Acoustic gesture controls in Swift. Calibration, stale-audio rejection, bounded processing, explicit stop controls, and replay through the real analyzer. |
+| **[MotionizedAudio](https://github.com/nazeeh111/MotionizedAudio)** | [Known-motion experiment](https://github.com/nazeeh111/MotionizedAudio/blob/main/experiments/known_motion.py) | Recover sound from subpixel video motion. Generated signals probe frequency, amplitude ratios, silence, timing, and filter rejection through the CLI. |
+| **[DurableStore](https://github.com/nazeeh111/DurableStore)** | [Recovery contract](https://github.com/nazeeh111/DurableStore#readme) | Rust storage with a checksummed log, process-crash recovery, exclusive locks, atomic compaction, and injected failures. |
 
-- **Physics and imaging:** [HiddenWave](https://github.com/nazeeh111/HiddenWave), [CornerVision](https://github.com/nazeeh111/CornerVision), [ApertureTrace](https://github.com/nazeeh111/ApertureTrace), [SpeckleVision](https://github.com/nazeeh111/SpeckleVision).
-- **Electrical engineering and sensing:** [RadarVolume](https://github.com/nazeeh111/RadarVolume), [RadarDepth](https://github.com/nazeeh111/RadarDepth), [SoundMap](https://github.com/nazeeh111/SoundMap), [WiPose](https://github.com/nazeeh111/WiPose).
-- **Algorithms and scientific software:** [ModelForge](https://github.com/nazeeh111/ModelForge) for Rust numerical modeling, [SequenceForge](https://github.com/nazeeh111/SequenceForge) for Python sequence algorithms, and MATLAB signal-processing workflows.
-- **Security and data tools:** [VaultLens](https://github.com/nazeeh111/VaultLens) audits password exports locally; [MarketObservatory](https://github.com/nazeeh111/MarketObservatory) compares historical price scenarios; [MarketWeave](https://github.com/nazeeh111/MarketWeave) provides prediction-market interfaces.
-- **Computational chemistry:** [MoleculeBench](https://github.com/nazeeh111/MoleculeBench) compares molecular bond models and independently checks their numerical solutions.
-- **Acoustic interfaces:** [EchoSight](https://github.com/nazeeh111/EchoSight) combines a local recording backend with an explicitly simulated room-mapping demo.
+## Other projects
 
-## Engineering practice
+**AI and developer infrastructure:** [AgentLedger](https://github.com/nazeeh111/AgentLedger) runs bounded local task graphs, verifies artifacts, and records command results alongside optional Codex reviews. [VaultLens](https://github.com/nazeeh111/VaultLens) is an offline Go tool for auditing password exports with redacted output.
 
-I use Git, isolated development environments, automated tests, static analysis, reproducible inputs, and documented failure cases. Verification notes distinguish synthetic checks from experiments that require sensors, trained weights, external datasets, or additional toolboxes. A passing test is evidence for its tested scope, not a universal accuracy claim.
+**Scientific and numerical software:** [ModelForge](https://github.com/nazeeh111/ModelForge) implements numerical modeling in Rust; [SequenceForge](https://github.com/nazeeh111/SequenceForge) covers sequence alignment and phylogenetics. [MoleculeBench](https://github.com/nazeeh111/MoleculeBench) compares molecular bond models against numerical references.
 
-The repositories span Python, Rust, Go, TypeScript, Swift, and MATLAB. My AI-assisted development experience began with original Codex/Copilot tooling in 2021; I used Claude Code from its 2025 launch and currently work in Codex. Generated changes are reviewed and tested as code, not accepted as proof of correctness.
+**Signals and inverse problems:** [HiddenWave](https://github.com/nazeeh111/HiddenWave), [CornerVision](https://github.com/nazeeh111/CornerVision), and [ApertureTrace](https://github.com/nazeeh111/ApertureTrace) explore hidden-scene reconstruction. [RadarVolume](https://github.com/nazeeh111/RadarVolume), [SoundMap](https://github.com/nazeeh111/SoundMap), and [ChirpMotion](https://github.com/nazeeh111/ChirpMotion) connect array geometry and recorded signals to spatial or spectral results.
 
-## Publication history
+**Data applications:** [MarketObservatory](https://github.com/nazeeh111/MarketObservatory) compares CSV price series and portfolio allocations, with HTML, JSON, and CSV exports. [MarketWeave](https://github.com/nazeeh111/MarketWeave) provides prediction-market data and order-book interfaces.
 
-Several projects were developed locally using Git and published to GitHub in batches. Similar upload dates do not indicate when development began. Individual repositories document their behavior, validation, and applicable license terms.
+Project READMEs explain the implementation, ownership and license, runnable entry points, and validation limits. Some sensing projects still need specialized hardware or datasets for real-world evaluation.
 
-[Browse all repositories](https://github.com/nazeeh111?tab=repositories)
+**Publication note:** Projects are published in batches from local Git workspaces. GitHub upload dates are publication dates, not a development timeline.
