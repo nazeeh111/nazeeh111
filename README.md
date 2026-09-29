@@ -11,6 +11,7 @@ I build tools for staffing, migration checks, and storage, alongside graphics an
 | Project | Open it | Implementation |
 | :--- | :--- | :--- |
 | **[Muster](https://github.com/nazeeh111/Muster)** | [Browser worksheet](https://nazeeh111.github.io/Muster/) | Repairs volunteer rotas while preserving locked commitments. It maximizes coverage, then minimizes assignment changes, and explains collective shortages. Runs locally with project import/export and assignment CSV. |
+| **[Reticle](https://github.com/nazeeh111/Reticle)** | [Synthetic TIFF comparison](https://github.com/nazeeh111/Reticle#run) | Checks whether microscopy exports preserve recorded physical scale. Distinguishes changed, missing and unit-equivalent calibration, checks supported image-plane mappings, and produces local batch reports. |
 | **[SchemaRehearsal](https://github.com/nazeeh111/SchemaRehearsal)** | [Runnable example](https://github.com/nazeeh111/SchemaRehearsal#try-a-migration-that-loses-an-audit-trail) | Replays declared application scenarios on isolated before/after SQLite copies. Its example detects a lost payment-audit trigger even though both migrations preserve rows and pass integrity checks. |
 | **[DurableStore](https://github.com/nazeeh111/DurableStore)** | [Source release](https://github.com/nazeeh111/DurableStore/releases/tag/v0.2.0) | Rust key-value storage with atomic multi-key batches, checksummed recovery, exclusive locks, and compaction. Includes process-crash tests and an outbox-state example; power-loss behavior depends on the filesystem and hardware. |
 
