@@ -1,6 +1,6 @@
 # Nazeeh Abdul-Hadi
 
-Local software for mechanical design, scheduling, text annotations and database checks. I also work on graphics and sensing experiments.
+Local software for mechanical design, circuit analysis, scheduling, text annotations and database checks. I also work on graphics and sensing experiments.
 
 [Open Muster](https://nazeeh111.github.io/Muster/) · [Try a migration rehearsal](https://github.com/nazeeh111/SchemaRehearsal#try-a-migration-that-loses-an-audit-trail) · [Inspect an AgentLedger run](https://nazeeh111.github.io/AgentLedger/)
 
@@ -20,6 +20,8 @@ Local software for mechanical design, scheduling, text annotations and database 
 
 <details>
 <summary>More original software and experiments</summary>
+
+**[LadderProof](https://github.com/nazeeh111/LadderProof)** computes exact voltage-step bounds for ideal 2–6-bit resistor ladders with independent component intervals. Inspect a decreasing transition and compare a tighter design with complete independent verification. [Run the circuit example](https://github.com/nazeeh111/LadderProof#try-the-complete-workflow).
 
 **[Reticle](https://github.com/nazeeh111/Reticle)** checks microscopy exports for changed, missing or unit-equivalent physical calibration and supported image-plane mappings. [Compare synthetic TIFFs](https://github.com/nazeeh111/Reticle#run).
 
