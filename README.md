@@ -31,7 +31,7 @@ Local software for mechanical design, circuit analysis, scheduling, text annotat
 
 **Scientific software:** [ModelForge](https://github.com/nazeeh111/ModelForge) implements numerical modeling in Rust; [SequenceForge](https://github.com/nazeeh111/SequenceForge) covers sequence alignment and phylogenetics; [MoleculeBench](https://github.com/nazeeh111/MoleculeBench) compares molecular bond models against numerical references.
 
-**Signals and inverse problems:** [HiddenWave](https://github.com/nazeeh111/HiddenWave), [CornerVision](https://github.com/nazeeh111/CornerVision) and [ApertureTrace](https://github.com/nazeeh111/ApertureTrace) explore hidden-scene reconstruction. [RadarVolume](https://github.com/nazeeh111/RadarVolume), [SoundMap](https://github.com/nazeeh111/SoundMap) and [ChirpMotion](https://github.com/nazeeh111/ChirpMotion) connect array geometry and recorded signals to spatial or spectral results. Some sensing projects still need specialized hardware or datasets for real-world evaluation.
+**Signals and inverse problems:** [HiddenWave](https://github.com/nazeeh111/HiddenWave), [CornerVision](https://github.com/nazeeh111/CornerVision) and [ApertureTrace](https://github.com/nazeeh111/ApertureTrace) explore hidden-scene reconstruction. [RadarVolume](https://github.com/nazeeh111/RadarVolume) and [SoundMap](https://github.com/nazeeh111/SoundMap) connect array geometry and recorded signals to spatial results. [ChirpMotion](https://github.com/nazeeh111/ChirpMotion) adds a portable C17 analyzer that streams recorded chirps without MATLAB. [Build its generated demo](https://github.com/nazeeh111/ChirpMotion#native-analysis-no-matlab-required). Some sensing projects still need specialized hardware or datasets for real-world evaluation.
 
 **Data applications:** [MarketObservatory](https://github.com/nazeeh111/MarketObservatory) compares CSV price series and portfolio allocations with HTML, JSON and CSV exports. [MarketWeave](https://github.com/nazeeh111/MarketWeave) provides prediction-market data and order-book interfaces.
 
@@ -49,7 +49,7 @@ Local software for mechanical design, circuit analysis, scheduling, text annotat
 
 **[ToolScope](https://github.com/nazeeh111/ToolScope)** adapts MCP Inspector with browser, CLI and terminal inspection plus offline comparison of exported tool definitions. [Try the offline example](https://github.com/nazeeh111/ToolScope#cli-and-terminal-interface).
 
-**[WorkHarbor](https://github.com/nazeeh111/WorkHarbor)** adapts Paperclip into a local task/run workspace with an isolated launcher and selected-file review packets. [Download the source](https://github.com/nazeeh111/WorkHarbor/releases/tag/v0.1.0). Board workflows and mocked run lifecycles are tested; real provider execution remains unvalidated.
+**[WorkHarbor](https://github.com/nazeeh111/WorkHarbor)** adapts Paperclip into a local task/run workspace with an isolated launcher and selected-file review packets. [Download the source](https://github.com/nazeeh111/WorkHarbor/releases/tag/v0.1.1). Board workflows, responsive draft retention, rejected-save recovery and mocked run lifecycles are tested; real provider execution remains unvalidated.
 
 ## Upstream contribution
 
