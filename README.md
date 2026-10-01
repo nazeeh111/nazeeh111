@@ -39,8 +39,6 @@ Local software for mechanical design, circuit analysis, scheduling, text annotat
 
 ## Adaptations and experiments
 
-These projects build on existing open-source work. Each repository records its source lineage, licenses and additions.
-
 | Project | Open it | Contribution |
 | :--- | :--- | :--- |
 | **[SolidFrame](https://github.com/nazeeh111/SolidFrame)** | [Browser CAD](https://nazeeh111.github.io/SolidFrame/) | Adapts Chili3D with an editable fixture, restricted URL plugin loading, separate project storage and save-confirmation fixes. |
