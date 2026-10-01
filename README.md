@@ -49,9 +49,13 @@ These projects build on existing open-source work. Each repository records its s
 | **[EchoAtlas](https://github.com/nazeeh111/EchoAtlas)** | [macOS download](https://github.com/nazeeh111/EchoAtlas/releases/latest) | Experimental acoustic gesture controls with calibration, stale-audio rejection, explicit stop controls, and analyzer replay. Live-hand accuracy still needs testing. |
 | **[MotionizedAudio](https://github.com/nazeeh111/MotionizedAudio)** | [Known-motion experiment](https://github.com/nazeeh111/MotionizedAudio/blob/main/experiments/known_motion.py) | Continues earlier VisualMic code under a new name. Added a generated known-motion experiment, frequency and timing checks, and safer WAV output handling; real-speech recovery is unverified. |
 
-**[ToolScope](https://github.com/nazeeh111/ToolScope)** adapts MCP Inspector with browser, CLI and terminal interfaces, local examples and portable tool-schema baselines. A local backend is required.
+**[ToolScope](https://github.com/nazeeh111/ToolScope)** adapts MCP Inspector with browser, CLI and terminal inspection plus offline comparison of exported tool definitions. [Try the offline example](https://github.com/nazeeh111/ToolScope#cli-and-terminal-interface).
 
 **[WorkHarbor](https://github.com/nazeeh111/WorkHarbor)** adapts Paperclip into a local task/run workspace with an isolated launcher and selected-file review packets. [Download the source](https://github.com/nazeeh111/WorkHarbor/releases/tag/v0.1.0). Board workflows and mocked run lifecycles are tested; real provider execution remains unvalidated.
+
+## Upstream contribution
+
+Contributed Django package and version mapping to the GitHub Advisory Database. The [published advisory](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm) credits me as **Analyst**. [Accepted change](https://github.com/github/advisory-database/pull/9912).
 
 See each repository's verification notes for its tested scope.
 
