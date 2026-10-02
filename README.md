@@ -1,47 +1,60 @@
 # Nazeeh Abdul-Hadi
 
-I build local tools for scheduling, engineering and data checks, plus graphics and sensing experiments.
+Local software for mechanical design, circuit analysis, scheduling, text annotations and database checks. I also work on graphics and sensing experiments.
 
-[Open Muster](https://nazeeh111.github.io/Muster/) · [Try a migration rehearsal](https://github.com/nazeeh111/SchemaRehearsal#try-a-migration-that-loses-an-audit-trail)
+[Open Muster](https://nazeeh111.github.io/Muster/) · [Try a migration rehearsal](https://github.com/nazeeh111/SchemaRehearsal#try-a-migration-that-loses-an-audit-trail) · [Inspect an AgentLedger run](https://nazeeh111.github.io/AgentLedger/)
 
-## Selected work
+## Featured original projects
 
-**[Muster](https://github.com/nazeeh111/Muster)** repairs volunteer schedules around locked commitments, prioritizing coverage and fewer changes. [Open the worksheet](https://nazeeh111.github.io/Muster/).
+**[Muster](https://github.com/nazeeh111/Muster)** repairs volunteer schedules while preserving locked commitments. It prioritizes coverage, then fewer changes, and explains staffing shortages; timed results state when optimality is unproven. [Open the worksheet](https://nazeeh111.github.io/Muster/).
 
-**[LadderProof](https://github.com/nazeeh111/LadderProof)** computes exact voltage-step bounds for ideal resistor ladders with independent component tolerances. [Inspect and verify a circuit](https://github.com/nazeeh111/LadderProof#try-the-complete-workflow).
+**[Camwright](https://github.com/nazeeh111/Camwright)** designs in-line roller cams from an editable motion cycle. Geometry checks return Pass, Fail or Unresolved, with saved inputs and inspection evidence. [Run Camwright locally](https://github.com/nazeeh111/Camwright#run-locally).
 
-**[SchemaRehearsal](https://github.com/nazeeh111/SchemaRehearsal)** compares declared application scenarios before and after a SQLite migration, beyond row counts and integrity checks. [Reproduce a lost audit trigger](https://github.com/nazeeh111/SchemaRehearsal#try-a-migration-that-loses-an-audit-trail).
+**[Sley](https://github.com/nazeeh111/Sley)** adapts supported rising-shed weaving drafts to declared physical pedals and allowed pairs, preserving thread structure, colors and fixed tie-ups. It reports Feasible, Infeasible or Unknown and exports the draft and pedal instructions. [Run Sley locally](https://github.com/nazeeh111/Sley#run-locally).
 
-**[DurableStore](https://github.com/nazeeh111/DurableStore)** is Rust key-value storage with atomic batches, checksummed recovery, exclusive locks and compaction. Includes process-crash tests; power-loss behavior depends on the filesystem and hardware. [Source release](https://github.com/nazeeh111/DurableStore/releases/tag/v0.2.0).
+**[Signelet](https://github.com/nazeeh111/Signelet)** transfers text annotations only when every minimum-cost character alignment agrees on an unchanged span under its alignment model. Ambiguous originals remain available for review. [Try the repeated-word example](https://github.com/nazeeh111/Signelet#try-the-example).
 
-**[Signelet](https://github.com/nazeeh111/Signelet)** transfers text annotations across edits when all minimum-cost alignments agree under its alignment model, keeping ambiguous spans for review. [Try the repeated-word example](https://github.com/nazeeh111/Signelet#try-the-example).
+**[SchemaRehearsal](https://github.com/nazeeh111/SchemaRehearsal)** replays declared application scenarios on isolated before-and-after SQLite copies. Its example detects a lost payment-audit trigger despite preserved rows and passing integrity checks. [Rehearse the migration](https://github.com/nazeeh111/SchemaRehearsal#try-a-migration-that-loses-an-audit-trail).
 
-**[Camwright](https://github.com/nazeeh111/Camwright)** designs in-line roller cams and records geometry checks as Pass, Fail or Unresolved. [Run locally](https://github.com/nazeeh111/Camwright#run-locally).
+**[AgentLedger](https://github.com/nazeeh111/AgentLedger)** runs bounded local task graphs, verifies artifacts and records command results. Durable checkpoints resume verified command tasks after interruption; Codex review is optional. [Run the offline example](https://github.com/nazeeh111/AgentLedger#run-the-complete-offline-example).
 
 <details>
-<summary>More projects</summary>
+<summary>More projects and experiments</summary>
 
-**Engineering and data:** [Sley](https://github.com/nazeeh111/Sley) adapts supported weaving drafts to declared pedals and reports Feasible, Infeasible or Unknown. [Reticle](https://github.com/nazeeh111/Reticle) checks microscopy calibration. [MarketObservatory](https://github.com/nazeeh111/MarketObservatory) compares CSV price series and portfolio allocations.
+**[LadderProof](https://github.com/nazeeh111/LadderProof)** computes exact voltage-step bounds for ideal 2–6-bit resistor ladders with independent component intervals. Inspect a decreasing transition and compare a tighter design with complete independent verification. [Run the circuit example](https://github.com/nazeeh111/LadderProof#try-the-complete-workflow).
 
-**Developer tools:** [AgentLedger](https://github.com/nazeeh111/AgentLedger) runs local task graphs with verified checkpoints. [PolicyDelta](https://github.com/nazeeh111/PolicyDelta) compares OpenBao policies. [VaultLens](https://github.com/nazeeh111/VaultLens) audits password exports offline. [MarketWeave](https://github.com/nazeeh111/MarketWeave) provides prediction-market data interfaces.
+**[Reticle](https://github.com/nazeeh111/Reticle)** checks microscopy exports for changed, missing or unit-equivalent physical calibration and supported image-plane mappings. [Compare synthetic TIFFs](https://github.com/nazeeh111/Reticle#run).
 
-**Scientific software:** [ModelForge](https://github.com/nazeeh111/ModelForge), [SequenceForge](https://github.com/nazeeh111/SequenceForge) and [MoleculeBench](https://github.com/nazeeh111/MoleculeBench) cover numerical modeling, sequence analysis and molecular bond models.
+**[DurableStore](https://github.com/nazeeh111/DurableStore)** is Rust key-value storage with atomic batches, checksummed recovery, exclusive locks and compaction. Process-crash tests and an outbox example are included; power-loss behavior depends on filesystem and hardware. [Source release](https://github.com/nazeeh111/DurableStore/releases/tag/v0.2.0).
+
+**Developer tools:** [PolicyDelta](https://github.com/nazeeh111/PolicyDelta) compares OpenBao policies using identical requests and synthetic fixtures. [VaultLens](https://github.com/nazeeh111/VaultLens) audits password exports offline with redacted output.
+
+**Scientific software:** [ModelForge](https://github.com/nazeeh111/ModelForge) implements numerical modeling in Rust; [SequenceForge](https://github.com/nazeeh111/SequenceForge) covers sequence alignment and phylogenetics; [MoleculeBench](https://github.com/nazeeh111/MoleculeBench) compares molecular bond models against numerical references.
+
+**Research adaptations and sensing experiments:** [HiddenWave](https://github.com/nazeeh111/HiddenWave), [CornerVision](https://github.com/nazeeh111/CornerVision) and [ApertureTrace](https://github.com/nazeeh111/ApertureTrace) explore hidden-scene reconstruction. [RadarVolume](https://github.com/nazeeh111/RadarVolume) and [SoundMap](https://github.com/nazeeh111/SoundMap) connect array geometry and recorded signals to spatial results. [ChirpMotion](https://github.com/nazeeh111/ChirpMotion) adds a portable C17 analyzer that streams recorded chirps without MATLAB. [Build its generated demo](https://github.com/nazeeh111/ChirpMotion#native-analysis-no-matlab-required). Some sensing projects still need specialized hardware or datasets for real-world evaluation.
+
+**Data applications:** [MarketObservatory](https://github.com/nazeeh111/MarketObservatory) compares CSV price series and portfolio allocations with HTML, JSON and CSV exports. [MarketWeave](https://github.com/nazeeh111/MarketWeave) provides prediction-market data and order-book interfaces.
 
 </details>
 
-<details>
-<summary>Adaptations and sensing experiments</summary>
+## Adaptations and experiments
 
-[SolidFrame](https://github.com/nazeeh111/SolidFrame) adapts Chili3D for browser CAD; [LumaField](https://github.com/nazeeh111/LumaField) adds local imports and conversions to a Gaussian-splat viewer; [PhotonRelay](https://github.com/nazeeh111/PhotonRelay) adds phone setup and frame-loss experiments to optical file transfer.
+| Project | Open it | Contribution |
+| :--- | :--- | :--- |
+| **[SolidFrame](https://github.com/nazeeh111/SolidFrame)** | [Browser CAD](https://nazeeh111.github.io/SolidFrame/) | Adapts Chili3D with an editable fixture, restricted URL plugin loading, separate project storage and save-confirmation fixes. |
+| **[LumaField](https://github.com/nazeeh111/LumaField)** | [Browser viewer](https://nazeeh111.github.io/LumaField/) | Gaussian-splat renderer adaptation with local `.splat` and binary `.ply` loading, camera import, conversions, and an original procedural scene. |
+| **[PhotonRelay](https://github.com/nazeeh111/PhotonRelay)** | [Browser app](https://nazeeh111.github.io/PhotonRelay/) | Optical-transfer adaptation with a phone setup link and a channel lab for testing frame loss and duplication. |
+| **[EchoAtlas](https://github.com/nazeeh111/EchoAtlas)** | [macOS download](https://github.com/nazeeh111/EchoAtlas/releases/latest) | Experimental acoustic gesture controls with calibration, stale-audio rejection, explicit stop controls, and analyzer replay. Live-hand accuracy still needs testing. |
+| **[MotionizedAudio](https://github.com/nazeeh111/MotionizedAudio)** | [Known-motion experiment](https://github.com/nazeeh111/MotionizedAudio/blob/main/experiments/known_motion.py) | Continues earlier VisualMic code under a new name. Added a generated known-motion experiment, frequency and timing checks, and safer WAV output handling; real-speech recovery is unverified. |
 
-[ToolScope](https://github.com/nazeeh111/ToolScope) adapts MCP Inspector with offline tool-definition comparison. [WorkHarbor](https://github.com/nazeeh111/WorkHarbor) adapts Paperclip into a local task workspace; real provider execution remains unvalidated.
+**[ToolScope](https://github.com/nazeeh111/ToolScope)** adapts MCP Inspector with browser, CLI and terminal inspection plus offline comparison of exported tool definitions. [Try the offline example](https://github.com/nazeeh111/ToolScope#cli-and-terminal-interface).
 
-[EchoAtlas](https://github.com/nazeeh111/EchoAtlas) explores acoustic gesture controls; live-hand accuracy needs testing. [MotionizedAudio](https://github.com/nazeeh111/MotionizedAudio) continues VisualMic experiments with generated-motion checks; real-speech recovery remains unverified.
-
-Research adaptations and experiments include [HiddenWave](https://github.com/nazeeh111/HiddenWave), [CornerVision](https://github.com/nazeeh111/CornerVision), [ApertureTrace](https://github.com/nazeeh111/ApertureTrace), [RadarVolume](https://github.com/nazeeh111/RadarVolume), [SoundMap](https://github.com/nazeeh111/SoundMap) and [ChirpMotion](https://github.com/nazeeh111/ChirpMotion). ChirpMotion includes a portable C17 analyzer. Real-world evaluation depends on the applicable datasets and hardware; source credits and verification limits are recorded in the repositories.
-
-</details>
+**[WorkHarbor](https://github.com/nazeeh111/WorkHarbor)** adapts Paperclip into a local task/run workspace with an isolated launcher and selected-file review packets. [Download the source](https://github.com/nazeeh111/WorkHarbor/releases/tag/v0.1.1). Board workflows, responsive draft retention, rejected-save recovery and mocked run lifecycles are tested; real provider execution remains unvalidated.
 
 ## Upstream contribution
 
-Corrected Django package and affected-version mapping in an existing GitHub security advisory. [Accepted change](https://github.com/github/advisory-database/pull/9912) · [Published Analyst credit](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm).
+Corrected Django package and affected-version mapping in an existing GitHub security advisory. The [published advisory](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm) credits me as **Analyst**. [Accepted change](https://github.com/github/advisory-database/pull/9912).
+
+See each repository's verification notes for its tested scope.
+
+**Publication note:** Projects are published in batches from local Git workspaces. GitHub upload dates are publication dates, not a development timeline.
