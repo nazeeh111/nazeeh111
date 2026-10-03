@@ -31,25 +31,27 @@ Local software for mechanical design, circuit analysis, scheduling, text annotat
 
 **Scientific software:** [ModelForge](https://github.com/nazeeh111/ModelForge) implements numerical modeling in Rust; [SequenceForge](https://github.com/nazeeh111/SequenceForge) covers sequence alignment and phylogenetics; [MoleculeBench](https://github.com/nazeeh111/MoleculeBench) compares molecular bond models against numerical references.
 
-**Research adaptations and sensing experiments:** [HiddenWave](https://github.com/nazeeh111/HiddenWave), [CornerVision](https://github.com/nazeeh111/CornerVision) and [ApertureTrace](https://github.com/nazeeh111/ApertureTrace) explore hidden-scene reconstruction. [RadarVolume](https://github.com/nazeeh111/RadarVolume) and [SoundMap](https://github.com/nazeeh111/SoundMap) connect array geometry and recorded signals to spatial results. [ChirpMotion](https://github.com/nazeeh111/ChirpMotion) adds a portable C17 analyzer that streams recorded chirps without MATLAB. [Build its generated demo](https://github.com/nazeeh111/ChirpMotion#native-analysis-no-matlab-required). Some sensing projects still need specialized hardware or datasets for real-world evaluation.
+**Research software and sensing experiments:** [HiddenWave](https://github.com/nazeeh111/HiddenWave), [CornerVision](https://github.com/nazeeh111/CornerVision) and [ApertureTrace](https://github.com/nazeeh111/ApertureTrace) explore hidden-scene reconstruction. [RadarVolume](https://github.com/nazeeh111/RadarVolume) and [SoundMap](https://github.com/nazeeh111/SoundMap) connect array geometry and recorded signals to spatial results. [ChirpMotion](https://github.com/nazeeh111/ChirpMotion) adds a portable C17 analyzer that streams recorded chirps without MATLAB. [Build its generated demo](https://github.com/nazeeh111/ChirpMotion#native-analysis-no-matlab-required). Some sensing projects still need specialized hardware or datasets for real-world evaluation.
 
 **Data applications:** [MarketObservatory](https://github.com/nazeeh111/MarketObservatory) compares CSV price series and portfolio allocations with HTML, JSON and CSV exports. [MarketWeave](https://github.com/nazeeh111/MarketWeave) provides prediction-market data and order-book interfaces.
 
 </details>
 
-## Adaptations and experiments
+## Graphics, sensing and developer tools
 
 | Project | Open it | Contribution |
 | :--- | :--- | :--- |
-| **[SolidFrame](https://github.com/nazeeh111/SolidFrame)** | [Browser CAD](https://nazeeh111.github.io/SolidFrame/) | Adapts Chili3D with an editable fixture, restricted URL plugin loading, separate project storage and save-confirmation fixes. |
-| **[LumaField](https://github.com/nazeeh111/LumaField)** | [Browser viewer](https://nazeeh111.github.io/LumaField/) | Gaussian-splat renderer adaptation with local `.splat` and binary `.ply` loading, camera import, conversions, and an original procedural scene. |
-| **[PhotonRelay](https://github.com/nazeeh111/PhotonRelay)** | [Browser app](https://nazeeh111.github.io/PhotonRelay/) | Optical-transfer adaptation with a phone setup link and a channel lab for testing frame loss and duplication. |
+| **[SolidFrame](https://github.com/nazeeh111/SolidFrame)** | [Browser CAD](https://nazeeh111.github.io/SolidFrame/) | Adds an editable fixture, restricted URL plugin loading, separate project storage and save-confirmation fixes. |
+| **[LumaField](https://github.com/nazeeh111/LumaField)** | [Browser viewer](https://nazeeh111.github.io/LumaField/) | Adds local `.splat` and binary `.ply` loading, camera import, conversions, and an original procedural scene. |
+| **[PhotonRelay](https://github.com/nazeeh111/PhotonRelay)** | [Browser app](https://nazeeh111.github.io/PhotonRelay/) | Adds a phone setup link and a channel lab for testing frame loss and duplication. |
 | **[EchoAtlas](https://github.com/nazeeh111/EchoAtlas)** | [macOS download](https://github.com/nazeeh111/EchoAtlas/releases/latest) | Experimental acoustic gesture controls with calibration, stale-audio rejection, explicit stop controls, and analyzer replay. Live-hand accuracy still needs testing. |
-| **[MotionizedAudio](https://github.com/nazeeh111/MotionizedAudio)** | [Known-motion experiment](https://github.com/nazeeh111/MotionizedAudio/blob/main/experiments/known_motion.py) | Continues earlier VisualMic code under a new name. Added a generated known-motion experiment, frequency and timing checks, and safer WAV output handling; real-speech recovery is unverified. |
+| **[MotionizedAudio](https://github.com/nazeeh111/MotionizedAudio)** | [Known-motion experiment](https://github.com/nazeeh111/MotionizedAudio/blob/main/experiments/known_motion.py) | Adds a generated known-motion experiment, frequency and timing checks, and safer WAV output handling; real-speech recovery is unverified. |
 
-**[ToolScope](https://github.com/nazeeh111/ToolScope)** adapts MCP Inspector with browser, CLI and terminal inspection plus offline comparison of exported tool definitions. [Try the offline example](https://github.com/nazeeh111/ToolScope#cli-and-terminal-interface).
+**[ToolScope](https://github.com/nazeeh111/ToolScope)** provides browser, CLI and terminal inspection plus offline comparison of exported tool definitions. [Try the offline example](https://github.com/nazeeh111/ToolScope#cli-and-terminal-interface).
 
-**[WorkHarbor](https://github.com/nazeeh111/WorkHarbor)** adapts Paperclip into a local task/run workspace with an isolated launcher and selected-file review packets. [Download the source](https://github.com/nazeeh111/WorkHarbor/releases/tag/v0.1.1). Board workflows, responsive draft retention, rejected-save recovery and mocked run lifecycles are tested; real provider execution remains unvalidated.
+**[WorkHarbor](https://github.com/nazeeh111/WorkHarbor)** provides a local task/run workspace with an isolated launcher and selected-file review packets. [Download the source](https://github.com/nazeeh111/WorkHarbor/releases/tag/v0.1.1). Board workflows, responsive draft retention, rejected-save recovery and mocked run lifecycles are tested; real provider execution remains unvalidated.
+
+Source notes: SolidFrame uses Chili3D; LumaField uses antimatter15/splat; PhotonRelay uses Decimen Optical Transfer; ToolScope uses MCP Inspector; WorkHarbor uses Paperclip; MotionizedAudio continues the earlier VisualMic code. Each repository retains detailed credits and terms.
 
 ## Upstream contribution
 
