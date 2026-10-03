@@ -1,8 +1,8 @@
 # Nazeeh Abdul-Hadi
 
-Local software for mechanical design, circuit analysis, scheduling, text annotations and database checks. I also work on graphics and sensing experiments.
+I build local software for mechanical design, circuit analysis, scheduling, text annotations and database checks. I also work on graphics and sensing experiments.
 
-[Open Muster](https://nazeeh111.github.io/Muster/) · [Try a migration rehearsal](https://github.com/nazeeh111/SchemaRehearsal#try-a-migration-that-loses-an-audit-trail) · [Inspect an AgentLedger run](https://nazeeh111.github.io/AgentLedger/)
+[Open SolidFrame CAD](https://nazeeh111.github.io/SolidFrame/) · [Open Muster](https://nazeeh111.github.io/Muster/) · [Try a migration rehearsal](https://github.com/nazeeh111/SchemaRehearsal#try-a-migration-that-loses-an-audit-trail) · [Inspect an AgentLedger run](https://nazeeh111.github.io/AgentLedger/)
 
 ## Featured original projects
 
@@ -41,7 +41,7 @@ Local software for mechanical design, circuit analysis, scheduling, text annotat
 
 | Project | Open it | Contribution |
 | :--- | :--- | :--- |
-| **[SolidFrame](https://github.com/nazeeh111/SolidFrame)** | [Browser CAD](https://nazeeh111.github.io/SolidFrame/) | Adds an editable fixture, restricted URL plugin loading, separate project storage and save-confirmation fixes. |
+| **[SolidFrame](https://github.com/nazeeh111/SolidFrame)** | [Browser CAD](https://nazeeh111.github.io/SolidFrame/) | Adds an editable fixture, keyboard-accessible modeling controls, restricted URL plugin loading, separate project storage and save-confirmation fixes. |
 | **[LumaField](https://github.com/nazeeh111/LumaField)** | [Browser viewer](https://nazeeh111.github.io/LumaField/) | Adds local `.splat` and binary `.ply` loading, camera import, conversions, and an original procedural scene. |
 | **[PhotonRelay](https://github.com/nazeeh111/PhotonRelay)** | [Browser app](https://nazeeh111.github.io/PhotonRelay/) | Adds a phone setup link and a channel lab for testing frame loss and duplication. |
 | **[EchoAtlas](https://github.com/nazeeh111/EchoAtlas)** | [macOS download](https://github.com/nazeeh111/EchoAtlas/releases/latest) | Experimental acoustic gesture controls with calibration, stale-audio rejection, explicit stop controls, and analyzer replay. Live-hand accuracy still needs testing. |
@@ -52,6 +52,13 @@ Local software for mechanical design, circuit analysis, scheduling, text annotat
 **[WorkHarbor](https://github.com/nazeeh111/WorkHarbor)** provides a local task/run workspace with an isolated launcher and selected-file review packets. [Download the source](https://github.com/nazeeh111/WorkHarbor/releases/tag/v0.1.1). Board workflows, responsive draft retention, rejected-save recovery and mocked run lifecycles are tested; real provider execution remains unvalidated.
 
 Source notes: SolidFrame uses Chili3D; LumaField uses antimatter15/splat; PhotonRelay uses Decimen Optical Transfer; ToolScope uses MCP Inspector; WorkHarbor uses Paperclip; MotionizedAudio continues the earlier VisualMic code. Each repository retains detailed credits and terms.
+
+## Runnable SQLite examples
+
+Two small, dependency-free examples behind my database tooling:
+
+- [A table rebuild that loses a payment audit](https://gist.github.com/nazeeh111/4714ddbec0b1df2edc78c8a1ed64000f): identical rows and a passing integrity check, but a missing trigger changes behavior.
+- [A main-file copy that misses committed WAL data](https://gist.github.com/nazeeh111/8e06fcc6bca04f5131e464815d2c26ac): compare file copying with SQLite's backup snapshot.
 
 ## Upstream contribution
 
