@@ -18,6 +18,8 @@ I build local software for mechanical design, circuit analysis, scheduling, text
 
 **[AgentLedger](https://github.com/nazeeh111/AgentLedger)** runs bounded local task graphs, verifies artifacts and records command results. Durable checkpoints resume verified command tasks after interruption; Codex review is optional. [Run the offline example](https://github.com/nazeeh111/AgentLedger#run-the-complete-offline-example).
 
+**[PhysicsBench](https://github.com/nazeeh111/PhysicsBench)** explores ideal projectile motion, mass–spring oscillation and one-dimensional collisions with time scrubbing, conservation checks and portable model sessions. Units and assumptions stay visible. [Open the physics lab](https://nazeeh111.github.io/PhysicsBench/).
+
 <details>
 <summary>More projects and experiments</summary>
 
