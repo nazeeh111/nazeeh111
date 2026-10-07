@@ -43,7 +43,7 @@ I build local software for mechanical design, circuit analysis, scheduling, text
 
 | Project | Open it | Contribution |
 | :--- | :--- | :--- |
-| **[SolidFrame](https://github.com/nazeeh111/SolidFrame)** | [Browser CAD](https://nazeeh111.github.io/SolidFrame/) | Adds an editable fixture, keyboard-accessible modeling controls, restricted URL plugin loading, separate project storage and save-confirmation fixes. |
+| **[SolidFrame](https://github.com/nazeeh111/SolidFrame)** | [Browser CAD](https://nazeeh111.github.io/SolidFrame/) | Adds an editable mechanical part builder for drilled plates and brackets, hole-pattern validation, and a reorganized keyboard-accessible workspace, alongside the fixture and local-project safeguards. |
 | **[LumaField](https://github.com/nazeeh111/LumaField)** | [Browser viewer](https://nazeeh111.github.io/LumaField/) | Adds local `.splat` and binary `.ply` loading, camera import, conversions, and an original procedural scene. |
 | **[PhotonRelay](https://github.com/nazeeh111/PhotonRelay)** | [Browser app](https://nazeeh111.github.io/PhotonRelay/) | Adds a phone setup link and a channel lab for testing frame loss and duplication. |
 | **[EchoAtlas](https://github.com/nazeeh111/EchoAtlas)** | [macOS download](https://github.com/nazeeh111/EchoAtlas/releases/latest) | Experimental acoustic gesture controls with calibration, stale-audio rejection, explicit stop controls, and analyzer replay. Live-hand accuracy still needs testing. |
