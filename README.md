@@ -41,13 +41,15 @@ I build local software for mechanical design, circuit analysis, scheduling, text
 
 ## Graphics, sensing and developer tools
 
-| Project | Open it | Contribution |
-| :--- | :--- | :--- |
-| **[SolidFrame](https://github.com/nazeeh111/SolidFrame)** | [Browser CAD](https://nazeeh111.github.io/SolidFrame/) | Adds an editable mechanical part builder for drilled plates and brackets, hole-pattern validation, and a reorganized keyboard-accessible workspace, alongside the fixture and local-project safeguards. |
-| **[LumaField](https://github.com/nazeeh111/LumaField)** | [Browser viewer](https://nazeeh111.github.io/LumaField/) | Adds local `.splat` and binary `.ply` loading, camera import, conversions, and an original procedural scene. |
-| **[PhotonRelay](https://github.com/nazeeh111/PhotonRelay)** | [Browser app](https://nazeeh111.github.io/PhotonRelay/) | Adds a phone setup link and a channel lab for testing frame loss and duplication. |
-| **[EchoAtlas](https://github.com/nazeeh111/EchoAtlas)** | [macOS download](https://github.com/nazeeh111/EchoAtlas/releases/latest) | Experimental acoustic gesture controls with calibration, stale-audio rejection, explicit stop controls, and analyzer replay. Live-hand accuracy still needs testing. |
-| **[MotionizedAudio](https://github.com/nazeeh111/MotionizedAudio)** | [Known-motion experiment](https://github.com/nazeeh111/MotionizedAudio/blob/main/experiments/known_motion.py) | Adds a generated known-motion experiment, frequency and timing checks, and safer WAV output handling; real-speech recovery is unverified. |
+- **[SolidFrame](https://github.com/nazeeh111/SolidFrame)** · [Browser CAD](https://nazeeh111.github.io/SolidFrame/). Adds an editable mechanical part builder for drilled plates and brackets, hole-pattern validation, and a reorganized keyboard-accessible workspace, alongside the fixture and local-project safeguards.
+
+- **[LumaField](https://github.com/nazeeh111/LumaField)** · [Browser viewer](https://nazeeh111.github.io/LumaField/). Adds local `.splat` and binary `.ply` loading, camera import, conversions, and an original procedural scene.
+
+- **[PhotonRelay](https://github.com/nazeeh111/PhotonRelay)** · [Browser app](https://nazeeh111.github.io/PhotonRelay/). Adds a phone setup link and a channel lab for testing frame loss and duplication.
+
+- **[EchoAtlas](https://github.com/nazeeh111/EchoAtlas)** · [macOS download](https://github.com/nazeeh111/EchoAtlas/releases/latest). Experimental acoustic gesture controls with calibration, stale-audio rejection, explicit stop controls, and analyzer replay. Live-hand accuracy still needs testing.
+
+- **[MotionizedAudio](https://github.com/nazeeh111/MotionizedAudio)** · [Known-motion experiment](https://github.com/nazeeh111/MotionizedAudio/blob/main/experiments/known_motion.py). Adds a generated known-motion experiment, frequency and timing checks, and safer WAV output handling; real-speech recovery is unverified.
 
 **[ToolScope](https://github.com/nazeeh111/ToolScope)** provides browser, CLI and terminal inspection plus offline comparison of exported tool definitions. [Try the offline example](https://github.com/nazeeh111/ToolScope#cli-and-terminal-interface).
 
