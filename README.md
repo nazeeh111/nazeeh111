@@ -2,7 +2,7 @@
 
 ### Make hidden behavior visible. Make the result runnable.
 
-I build tools that let you keep native instructions, fork live execution, recover exact inputs, and infer editable binary structure. The interesting part is the mechanism. The finish line is a release someone else can actually run.
+I build tools that let you keep native instructions, fork live execution, recover exact inputs, infer editable binary structure, and design radio experiments. The interesting part is the mechanism. The finish line is a release someone else can actually run.
 
 [Call original native code](https://github.com/nazeeh111/Capsulith/releases/tag/v0.1.0) · [Fork an execution](https://github.com/nazeeh111/Forkwake#try-it) · [Recover an inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Learn a file format](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0)
 
@@ -19,6 +19,8 @@ I build tools that let you keep native instructions, fork live execution, recove
 These tools have explicit supported scopes. Their repositories include runnable examples, independent controls, failure behavior, licenses and verification limits. I prefer a precise capability to a universal claim.
 
 ## Beyond program behavior
+
+**[Phaseglass](https://github.com/nazeeh111/Phaseglass)** · One radio signal, competing locations. Inspect an original 3D point-scattering simulation, fit positions without generator truth, and move a receiver to distinguish a chosen pair. Includes ambiguity, model-failure and convincing-wrong-fit experiments, plus source-bearing portable reruns. Simulation only. [Try the Studio](https://github.com/nazeeh111/Phaseglass#try-the-mirror-trap).
 
 [SolidFrame CAD](https://nazeeh111.github.io/SolidFrame/) · [Camwright mechanisms](https://github.com/nazeeh111/Camwright) · [Muster scheduling](https://nazeeh111.github.io/Muster/) · [SchemaRehearsal migrations](https://github.com/nazeeh111/SchemaRehearsal) · [AgentLedger runs](https://nazeeh111.github.io/AgentLedger/)
 
