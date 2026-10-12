@@ -2,9 +2,11 @@
 
 I build local software for exploring execution, recovering program behavior, mechanical design, circuit analysis, scheduling and database checks. I also work on graphics and sensing experiments.
 
-[Fork a JavaScript workflow](https://github.com/nazeeh111/Forkwake#try-it) · [Inspect a 64-bit inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Open SolidFrame CAD](https://nazeeh111.github.io/SolidFrame/) · [Open Muster](https://nazeeh111.github.io/Muster/) · [Try a migration rehearsal](https://github.com/nazeeh111/SchemaRehearsal#try-a-migration-that-loses-an-audit-trail) · [Inspect an AgentLedger run](https://nazeeh111.github.io/AgentLedger/)
+[Learn a binary format](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0) · [Fork a JavaScript workflow](https://github.com/nazeeh111/Forkwake#try-it) · [Inspect a 64-bit inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Open SolidFrame CAD](https://nazeeh111.github.io/SolidFrame/) · [Open Muster](https://nazeeh111.github.io/Muster/) · [Try a migration rehearsal](https://github.com/nazeeh111/SchemaRehearsal#try-a-migration-that-loses-an-audit-trail) · [Inspect an AgentLedger run](https://nazeeh111.github.io/AgentLedger/)
 
 ## Featured original projects
+
+[Reclay](https://github.com/nazeeh111/Reclay) infers supported binary chunk rules from related files, retains competing interpretations and compiles standalone Python editors. Resize nested payloads with inferred length, padding and CRC32 updates. Real WAVE and AIFF edits match independent saves byte for byte; opaque content semantics remain explicit. [Download the release](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0).
 
 **[Forkwake](https://github.com/nazeeh111/Forkwake)** splits a live JavaScript or WebAssembly workflow into independent futures at named decisions. It preserves suspended interpreter frames, closures, cyclic objects and Promise jobs, then searches a declared response tree for a failure with the fewest changed answers. Includes a local source editor, compiled SQLite transactions and portable deep cuts. [Run the JavaScript example](https://github.com/nazeeh111/Forkwake#try-it).
 
