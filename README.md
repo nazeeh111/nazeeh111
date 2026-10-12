@@ -1,10 +1,31 @@
 # Nazeeh Abdul-Hadi
 
-I build local software for exploring execution, recovering program behavior, mechanical design, circuit analysis, scheduling and database checks. I also work on graphics and sensing experiments.
+### Make hidden behavior visible. Make the result runnable.
 
-[Learn a binary format](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0) · [Fork a JavaScript workflow](https://github.com/nazeeh111/Forkwake#try-it) · [Inspect a 64-bit inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Open SolidFrame CAD](https://nazeeh111.github.io/SolidFrame/) · [Open Muster](https://nazeeh111.github.io/Muster/) · [Try a migration rehearsal](https://github.com/nazeeh111/SchemaRehearsal#try-a-migration-that-loses-an-audit-trail) · [Inspect an AgentLedger run](https://nazeeh111.github.io/AgentLedger/)
+I build tools that let you keep native instructions, fork live execution, recover exact inputs, and infer editable binary structure. The interesting part is the mechanism. The finish line is a release someone else can actually run.
 
-## Featured original projects
+[Call native code anywhere](https://github.com/nazeeh111/Capsulith/releases/tag/v0.1.0) · [Fork an execution](https://github.com/nazeeh111/Forkwake#try-it) · [Recover an inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Learn a file format](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0)
+
+## Four ways to change what software can do
+
+**[Capsulith](https://github.com/nazeeh111/Capsulith)** · A compiled feature becomes a portable API. Extract supported ARM64 instructions and direct dependencies, declare buffers and integer arguments, inspect real accesses, and export an independent Node/browser capsule. Original machine code executes through the credited Unicorn.js engine. [Release](https://github.com/nazeeh111/Capsulith/releases/tag/v0.1.0) · [Passing Linux/macOS delivery gates](https://github.com/nazeeh111/Capsulith/actions/runs/38310408218).
+
+**[Forkwake](https://github.com/nazeeh111/Forkwake)** · One suspended workflow, multiple futures. Preserve live JavaScript/WebAssembly state at a named decision, change the answer, and inspect the outcome. Search a declared response tree for a failure requiring the fewest changed answers. [Run the example](https://github.com/nazeeh111/Forkwake#try-it).
+
+**[Rewynth](https://github.com/nazeeh111/Rewynth)** · Turn supported register transformations backward. Build and check exact32/64-bit inverses, inspect execution in both directions, and export runnable C. [64-bit release](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0).
+
+**[Reclay](https://github.com/nazeeh111/Reclay)** · Related files become an editable format model. Infer supported chunk rules, retain ambiguity, and compile standalone editors that update lengths, padding and CRC32. Real WAVE/AIFF edits match independent saves. [Release](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0).
+
+These tools have explicit supported scopes. Their repositories include runnable examples, independent controls, failure behavior, licenses and verification limits. I prefer a precise capability to a universal claim.
+
+## Beyond program behavior
+
+[SolidFrame CAD](https://nazeeh111.github.io/SolidFrame/) · [Camwright mechanisms](https://github.com/nazeeh111/Camwright) · [Muster scheduling](https://nazeeh111.github.io/Muster/) · [SchemaRehearsal migrations](https://github.com/nazeeh111/SchemaRehearsal) · [AgentLedger runs](https://nazeeh111.github.io/AgentLedger/)
+
+Mechanical design, circuit analysis, graphics and sensing experiments are another part of the work. Live hardware and real-world accuracy are stated separately from simulation and recorded-data checks.
+
+<details>
+<summary><strong>Project archive, source notes and upstream contributions</strong></summary>
 
 [Reclay](https://github.com/nazeeh111/Reclay) infers supported binary chunk rules from related files, retains competing interpretations and compiles standalone Python editors. Resize nested payloads with inferred length, padding and CRC32 updates. Real WAVE and AIFF edits match independent saves byte for byte; opaque content semantics remain explicit. [Download the release](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0).
 
@@ -79,3 +100,5 @@ Submitted a typed binding correction and actual JavaScript/TypeScript regression
 See each repository's verification notes for its tested scope.
 
 **Publication note:** Projects are published in batches from local Git workspaces. GitHub upload dates are publication dates, not a development timeline.
+
+</details>
