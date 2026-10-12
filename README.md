@@ -1,10 +1,14 @@
 # Nazeeh Abdul-Hadi
 
-I build local software for mechanical design, circuit analysis, scheduling, text annotations and database checks. I also work on graphics and sensing experiments.
+I build local software for exploring execution, recovering program behavior, mechanical design, circuit analysis, scheduling and database checks. I also work on graphics and sensing experiments.
 
-[Open SolidFrame CAD](https://nazeeh111.github.io/SolidFrame/) · [Open Muster](https://nazeeh111.github.io/Muster/) · [Try a migration rehearsal](https://github.com/nazeeh111/SchemaRehearsal#try-a-migration-that-loses-an-audit-trail) · [Inspect an AgentLedger run](https://nazeeh111.github.io/AgentLedger/)
+[Fork a JavaScript workflow](https://github.com/nazeeh111/Forkwake#try-it) · [Inspect a 64-bit inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Open SolidFrame CAD](https://nazeeh111.github.io/SolidFrame/) · [Open Muster](https://nazeeh111.github.io/Muster/) · [Try a migration rehearsal](https://github.com/nazeeh111/SchemaRehearsal#try-a-migration-that-loses-an-audit-trail) · [Inspect an AgentLedger run](https://nazeeh111.github.io/AgentLedger/)
 
 ## Featured original projects
+
+**[Forkwake](https://github.com/nazeeh111/Forkwake)** splits a live JavaScript or WebAssembly workflow into independent futures at named decisions. It preserves suspended interpreter frames, closures, cyclic objects and Promise jobs, then searches a declared response tree for a failure with the fewest changed answers. Includes a local source editor, compiled SQLite transactions and portable deep cuts. [Run the JavaScript example](https://github.com/nazeeh111/Forkwake#try-it).
+
+**[Rewynth](https://github.com/nazeeh111/Rewynth)** builds and checks inverses of supported 32/64-bit register transformations. Inspect forward and backward execution, recover inputs exactly, and export runnable inverse C code. [Download the 64-bit release](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0).
 
 **[Muster](https://github.com/nazeeh111/Muster)** repairs volunteer schedules while preserving locked commitments. It prioritizes coverage, then fewer changes, and explains staffing shortages; timed results state when optimality is unproven. [Open the worksheet](https://nazeeh111.github.io/Muster/).
 
@@ -64,9 +68,11 @@ Two small, dependency-free examples behind my database tooling:
 - [A table rebuild that loses a payment audit](https://gist.github.com/nazeeh111/4714ddbec0b1df2edc78c8a1ed64000f): identical rows and a passing integrity check, but a missing trigger changes behavior.
 - [A main-file copy that misses committed WAL data](https://gist.github.com/nazeeh111/8e06fcc6bca04f5131e464815d2c26ac): compare file copying with SQLite's backup snapshot.
 
-## Upstream contribution
+## Upstream contributions
 
 Corrected Django package and affected-version mapping in an existing GitHub security advisory. The [published advisory](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm) credits me as **Analyst**. [Accepted change](https://github.com/github/advisory-database/pull/9912).
+
+Submitted a typed binding correction and actual JavaScript/TypeScript regression tests for Binaryen's table element segments: [AssemblyScript/binaryen.js PR #131](https://github.com/AssemblyScript/binaryen.js/pull/131). Submission is recorded separately from upstream acceptance.
 
 See each repository's verification notes for its tested scope.
 
