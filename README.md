@@ -4,7 +4,7 @@
 
 I build tools that let you keep native instructions, fork live execution, recover exact inputs, and infer editable binary structure. The interesting part is the mechanism. The finish line is a release someone else can actually run.
 
-[Call native code anywhere](https://github.com/nazeeh111/Capsulith/releases/tag/v0.1.0) · [Fork an execution](https://github.com/nazeeh111/Forkwake#try-it) · [Recover an inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Learn a file format](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0)
+[Call original native code](https://github.com/nazeeh111/Capsulith/releases/tag/v0.1.0) · [Fork an execution](https://github.com/nazeeh111/Forkwake#try-it) · [Recover an inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Learn a file format](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0)
 
 ## Four ways to change what software can do
 
@@ -12,7 +12,7 @@ I build tools that let you keep native instructions, fork live execution, recove
 
 **[Forkwake](https://github.com/nazeeh111/Forkwake)** · One suspended workflow, multiple futures. Preserve live JavaScript/WebAssembly state at a named decision, change the answer, and inspect the outcome. Search a declared response tree for a failure requiring the fewest changed answers. [Run the example](https://github.com/nazeeh111/Forkwake#try-it).
 
-**[Rewynth](https://github.com/nazeeh111/Rewynth)** · Turn supported register transformations backward. Build and check exact32/64-bit inverses, inspect execution in both directions, and export runnable C. [64-bit release](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0).
+**[Rewynth](https://github.com/nazeeh111/Rewynth)** · Turn supported register transformations backward. Build and check exact 32/64-bit inverses, inspect execution in both directions, and export runnable C. [64-bit release](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0).
 
 **[Reclay](https://github.com/nazeeh111/Reclay)** · Related files become an editable format model. Infer supported chunk rules, retain ambiguity, and compile standalone editors that update lengths, padding and CRC32. Real WAVE/AIFF edits match independent saves. [Release](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0).
 
