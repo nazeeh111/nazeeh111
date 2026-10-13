@@ -20,7 +20,7 @@ These tools have explicit supported scopes. Their repositories include runnable 
 
 ## Shared creative work
 
-**[Polyweft](https://github.com/nazeeh111/Polyweft)** · Keep both artists’ edits inside one Blender mesh. Review prepared ancestor and branch files, combine independent vertex, UV and material changes, choose competing values, and save a freshly reopened native scene. Stable topology is required; the rest of the scene comes from the right branch. [Try the mesh review](https://nazeeh111.github.io/Polyweft/) · [Native example and release](https://github.com/nazeeh111/Polyweft/releases/tag/v0.1.0).
+**[Polyweft](https://github.com/nazeeh111/Polyweft)** · Keep both artists’ Blender edits and reveal intersections introduced by combining them. Review prepared branches, merge vertex, UV and material values, and compare native surfaces across the ancestor, both branches and the result with exact witnesses and source-bound edits. Save a freshly reopened native scene. [Try four-state inspection](https://nazeeh111.github.io/Polyweft/interference/) · [Review the Tide merge](https://nazeeh111.github.io/Polyweft/) · [Native examples and release](https://github.com/nazeeh111/Polyweft/releases/tag/v0.2.0).
 
 ## Motion and signals
 
