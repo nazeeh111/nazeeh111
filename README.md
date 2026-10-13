@@ -4,7 +4,7 @@
 
 I build tools that let you keep native instructions, fork live execution, recover exact inputs, infer editable binary structure, design mechanical motion, and plan radio experiments. The interesting part is the mechanism. The finish line is a release someone else can actually run.
 
-[Run compiled code on your images](https://nazeeh111.github.io/Capsulith/studio/image.html) · [Fork an execution](https://github.com/nazeeh111/Forkwake#try-it) · [Recover an inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Learn a file format](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0)
+[Run compiled code on your images](https://nazeeh111.github.io/Capsulith/studio/image.html) · [Fork an execution](https://github.com/nazeeh111/Forkwake#try-it) · [Recover an inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Keep file pointers connected](https://github.com/nazeeh111/Reclay/releases/tag/v0.2.0)
 
 ## Four ways to change what software can do
 
@@ -14,7 +14,7 @@ I build tools that let you keep native instructions, fork live execution, recove
 
 **[Rewynth](https://github.com/nazeeh111/Rewynth)** · Turn supported register transformations backward. Build and check exact 32/64-bit inverses, inspect execution in both directions, and export runnable C. [64-bit release](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0).
 
-**[Reclay](https://github.com/nazeeh111/Reclay)** · Related files become an editable format model. Infer supported chunk rules, retain ambiguity, and compile standalone editors that update lengths, padding and CRC32. Real WAVE/AIFF edits match independent saves. [Release](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0).
+**[Reclay](https://github.com/nazeeh111/Reclay)** · Mark a changing field, learn its byte count and internal addresses, then export a guarded standalone editor. TIFF metadata edits match independent saves; existing chunk editing remains. [Release](https://github.com/nazeeh111/Reclay/releases/tag/v0.2.0).
 
 These tools have explicit supported scopes. Their repositories include runnable examples, independent controls, failure behavior, licenses and verification limits. I prefer a precise capability to a universal claim.
 
@@ -35,7 +35,7 @@ Mechanical design, circuit analysis, graphics and sensing experiments are anothe
 <details>
 <summary><strong>Project archive, source notes and upstream contributions</strong></summary>
 
-[Reclay](https://github.com/nazeeh111/Reclay) infers supported binary chunk rules from related files, retains competing interpretations and compiles standalone Python editors. Resize nested payloads with inferred length, padding and CRC32 updates. Real WAVE and AIFF edits match independent saves byte for byte; opaque content semantics remain explicit. [Download the release](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0).
+[Reclay](https://github.com/nazeeh111/Reclay) learns supported binary blocks or the count, padding and absolute pointers around a marked changing span. Resize a field within a matching document family, inspect every address rewrite, and take the guarded Python editor away. Four withheld TIFF edits match independently produced files byte for byte. [Download the release](https://github.com/nazeeh111/Reclay/releases/tag/v0.2.0) or [try the standalone experiment](https://github.com/nazeeh111/Reclay/releases/download/v0.2.0/reclay-relocation-lab-0.2.0.zip).
 
 **[Forkwake](https://github.com/nazeeh111/Forkwake)** splits a live JavaScript or WebAssembly workflow into independent futures at named decisions. It preserves suspended interpreter frames, closures, cyclic objects and Promise jobs, then searches a declared response tree for a failure with the fewest changed answers. Includes a local source editor, compiled SQLite transactions and portable deep cuts. [Run the JavaScript example](https://github.com/nazeeh111/Forkwake#try-it).
 
