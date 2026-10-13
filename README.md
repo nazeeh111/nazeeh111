@@ -4,11 +4,11 @@
 
 I build tools that let you keep native instructions, fork live execution, recover exact inputs, infer editable binary structure, design mechanical motion, and plan radio experiments. The interesting part is the mechanism. The finish line is a release someone else can actually run.
 
-[Carry a native object](https://nazeeh111.github.io/Capsulith/) · [Fork an execution](https://github.com/nazeeh111/Forkwake#try-it) · [Recover an inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Learn a file format](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0)
+[Run compiled code on your images](https://nazeeh111.github.io/Capsulith/studio/image.html) · [Fork an execution](https://github.com/nazeeh111/Forkwake#try-it) · [Recover an inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Learn a file format](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0)
 
 ## Four ways to change what software can do
 
-**[Capsulith](https://github.com/nazeeh111/Capsulith)** · Compiled code and initialized objects become portable APIs. Carry an owned heap and retained buffers into a fresh Node/browser worker, inspect actual accesses, and continue without the original binary. Original instructions execute through the credited Unicorn.js engine. [Live object Studio](https://nazeeh111.github.io/Capsulith/) · [Release](https://github.com/nazeeh111/Capsulith/releases/tag/v0.2.0) · [Passing Linux/macOS delivery gates](https://github.com/nazeeh111/Capsulith/actions/runs/38466823925).
+**[Capsulith](https://github.com/nazeeh111/Capsulith)** · Compiled code and initialized objects become portable APIs. Run an original ARM64 image codec on small PNG/QOI files, inspect returned pixel bytes and reopen native heap state in a fresh worker. The LZ4 demo carries dictionary history across workers. CPU emulation is supplied by the credited Unicorn.js engine. [Live image workbench](https://nazeeh111.github.io/Capsulith/studio/image.html) · [Object Studio](https://nazeeh111.github.io/Capsulith/) · [Release](https://github.com/nazeeh111/Capsulith/releases/tag/v0.3.0) · [Verified Linux/macOS delivery](https://github.com/nazeeh111/Capsulith/actions/runs/38477420431).
 
 **[Forkwake](https://github.com/nazeeh111/Forkwake)** · One suspended workflow, multiple futures. Preserve live JavaScript/WebAssembly state at a named decision, change the answer, and inspect the outcome. Search a declared response tree for a failure requiring the fewest changed answers. Optional source-bound caller frames explain where a decision was made. [Run the example](https://github.com/nazeeh111/Forkwake#try-it).
 
