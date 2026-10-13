@@ -4,11 +4,11 @@
 
 I build tools that let you keep native instructions, fork live execution, recover exact inputs, infer editable binary structure, design mechanical motion, and plan radio experiments. The interesting part is the mechanism. The finish line is a release someone else can actually run.
 
-[Call original native code](https://github.com/nazeeh111/Capsulith/releases/tag/v0.1.0) · [Fork an execution](https://github.com/nazeeh111/Forkwake#try-it) · [Recover an inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Learn a file format](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0)
+[Carry a native object](https://nazeeh111.github.io/Capsulith/) · [Fork an execution](https://github.com/nazeeh111/Forkwake#try-it) · [Recover an inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Learn a file format](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0)
 
 ## Four ways to change what software can do
 
-**[Capsulith](https://github.com/nazeeh111/Capsulith)** · A compiled feature becomes a portable API. Extract supported ARM64 instructions and direct dependencies, declare buffers and integer arguments, inspect real accesses, and export an independent Node/browser capsule. Original machine code executes through the credited Unicorn.js engine. [Release](https://github.com/nazeeh111/Capsulith/releases/tag/v0.1.0) · [Passing Linux/macOS delivery gates](https://github.com/nazeeh111/Capsulith/actions/runs/38310408218).
+**[Capsulith](https://github.com/nazeeh111/Capsulith)** · Compiled code and initialized objects become portable APIs. Carry an owned heap and retained buffers into a fresh Node/browser worker, inspect actual accesses, and continue without the original binary. Original instructions execute through the credited Unicorn.js engine. [Live object Studio](https://nazeeh111.github.io/Capsulith/) · [Release](https://github.com/nazeeh111/Capsulith/releases/tag/v0.2.0) · [Passing Linux/macOS delivery gates](https://github.com/nazeeh111/Capsulith/actions/runs/38466823925).
 
 **[Forkwake](https://github.com/nazeeh111/Forkwake)** · One suspended workflow, multiple futures. Preserve live JavaScript/WebAssembly state at a named decision, change the answer, and inspect the outcome. Search a declared response tree for a failure requiring the fewest changed answers. Optional source-bound caller frames explain where a decision was made. [Run the example](https://github.com/nazeeh111/Forkwake#try-it).
 
