@@ -2,7 +2,7 @@
 
 ### Make hidden behavior visible. Make the result runnable.
 
-I build tools that let you keep native instructions, fork live execution, recover exact inputs, infer editable binary structure, and design radio experiments. The interesting part is the mechanism. The finish line is a release someone else can actually run.
+I build tools that let you keep native instructions, fork live execution, recover exact inputs, infer editable binary structure, design mechanical motion, and plan radio experiments. The interesting part is the mechanism. The finish line is a release someone else can actually run.
 
 [Call original native code](https://github.com/nazeeh111/Capsulith/releases/tag/v0.1.0) · [Fork an execution](https://github.com/nazeeh111/Forkwake#try-it) · [Recover an inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Learn a file format](https://github.com/nazeeh111/Reclay/releases/tag/v0.1.0)
 
@@ -10,7 +10,7 @@ I build tools that let you keep native instructions, fork live execution, recove
 
 **[Capsulith](https://github.com/nazeeh111/Capsulith)** · A compiled feature becomes a portable API. Extract supported ARM64 instructions and direct dependencies, declare buffers and integer arguments, inspect real accesses, and export an independent Node/browser capsule. Original machine code executes through the credited Unicorn.js engine. [Release](https://github.com/nazeeh111/Capsulith/releases/tag/v0.1.0) · [Passing Linux/macOS delivery gates](https://github.com/nazeeh111/Capsulith/actions/runs/38310408218).
 
-**[Forkwake](https://github.com/nazeeh111/Forkwake)** · One suspended workflow, multiple futures. Preserve live JavaScript/WebAssembly state at a named decision, change the answer, and inspect the outcome. Search a declared response tree for a failure requiring the fewest changed answers. [Run the example](https://github.com/nazeeh111/Forkwake#try-it).
+**[Forkwake](https://github.com/nazeeh111/Forkwake)** · One suspended workflow, multiple futures. Preserve live JavaScript/WebAssembly state at a named decision, change the answer, and inspect the outcome. Search a declared response tree for a failure requiring the fewest changed answers. Optional source-bound caller frames explain where a decision was made. [Run the example](https://github.com/nazeeh111/Forkwake#try-it).
 
 **[Rewynth](https://github.com/nazeeh111/Rewynth)** · Turn supported register transformations backward. Build and check exact 32/64-bit inverses, inspect execution in both directions, and export runnable C. [64-bit release](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0).
 
@@ -18,9 +18,11 @@ I build tools that let you keep native instructions, fork live execution, recove
 
 These tools have explicit supported scopes. Their repositories include runnable examples, independent controls, failure behavior, licenses and verification limits. I prefer a precise capability to a universal claim.
 
-## Beyond program behavior
+## Motion and signals
 
 **[Phaseglass](https://github.com/nazeeh111/Phaseglass)** · One radio signal, competing locations. Inspect an original 3D point-scattering simulation, fit positions without generator truth, and move a receiver to distinguish a chosen pair. Includes ambiguity, model-failure and convincing-wrong-fit experiments, plus source-bearing portable reruns. Simulation only. [Try the Studio](https://github.com/nazeeh111/Phaseglass#try-the-mirror-trap).
+
+**[Sweepforge](https://github.com/nazeeh111/Sweepforge)** · Draw timed motion, fit a one-motor linkage, and inspect what happens between animation frames. Checks modeled bar/tool clearances across a whole cycle and dimension tolerances; exports conceptual SVG/DXF patterns with source and independent replay. Includes a collision missed by 64 nominal frames. No hardware or physical-safety validation. [Release](https://github.com/nazeeh111/Sweepforge/releases/tag/v0.1.0).
 
 [SolidFrame CAD](https://nazeeh111.github.io/SolidFrame/) · [Camwright mechanisms](https://github.com/nazeeh111/Camwright) · [Muster scheduling](https://nazeeh111.github.io/Muster/) · [SchemaRehearsal migrations](https://github.com/nazeeh111/SchemaRehearsal) · [AgentLedger runs](https://nazeeh111.github.io/AgentLedger/)
 
@@ -98,6 +100,8 @@ Two small, dependency-free examples behind my database tooling:
 Corrected Django package and affected-version mapping in an existing GitHub security advisory. The [published advisory](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm) credits me as **Analyst**. [Accepted change](https://github.com/github/advisory-database/pull/9912).
 
 Submitted a typed binding correction and actual JavaScript/TypeScript regression tests for Binaryen's table element segments: [AssemblyScript/binaryen.js PR #131](https://github.com/AssemblyScript/binaryen.js/pull/131). Submission is recorded separately from upstream acceptance.
+
+Reported a reproducible Unicorn.js timeout abort and supplied a tested source guard: [issue #48](https://github.com/AlexAltea/unicorn.js/issues/48) and [patch](https://github.com/AlexAltea/unicorn.js/issues/48#issuecomment-6135161258). Upstream acceptance is pending.
 
 See each repository's verification notes for its tested scope.
 
