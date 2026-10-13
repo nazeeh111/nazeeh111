@@ -18,6 +18,10 @@ I build tools that let you keep native instructions, fork live execution, recove
 
 These tools have explicit supported scopes. Their repositories include runnable examples, independent controls, failure behavior, licenses and verification limits. I prefer a precise capability to a universal claim.
 
+## Shared creative work
+
+**[Polyweft](https://github.com/nazeeh111/Polyweft)** · Keep both artists’ edits inside one Blender mesh. Review prepared ancestor and branch files, combine independent vertex, UV and material changes, choose competing values, and save a freshly reopened native scene. Stable topology is required; the rest of the scene comes from the right branch. [Try the mesh review](https://nazeeh111.github.io/Polyweft/) · [Native example and release](https://github.com/nazeeh111/Polyweft/releases/tag/v0.1.0).
+
 ## Motion and signals
 
 **[Phaseglass](https://github.com/nazeeh111/Phaseglass)** · Fit here, predict there. Fit a coherent receiver sweep, then predict whole withheld positions with the locations and channel responses frozen. Keep reflected explanations and inspect a deliberate counterfeit that passes both checks while wrong. Original single-point simulation; coherence remains a trusted assumption. [Explore the recorded experiments](https://nazeeh111.github.io/Phaseglass/demo/) · [Run the full Studio](https://github.com/nazeeh111/Phaseglass#install-and-run).
