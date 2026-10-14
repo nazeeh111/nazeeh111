@@ -30,7 +30,7 @@ These tools have explicit supported scopes. Their repositories include runnable 
 
 ## Motion and signals
 
-**[Phaseglass](https://github.com/nazeeh111/Phaseglass)** · Fit here, predict there. Fit a coherent receiver sweep, then predict whole withheld positions with the locations and channel responses frozen. Keep reflected explanations and inspect a deliberate counterfeit that passes both checks while wrong. Original single-point simulation; coherence remains a trusted assumption. [Explore the recorded experiments](https://nazeeh111.github.io/Phaseglass/demo/) · [Run the full Studio](https://github.com/nazeeh111/Phaseglass#install-and-run).
+**[Caustryn](https://github.com/nazeeh111/Caustryn)** · Fit here, predict there. Fit a coherent receiver sweep, then predict whole withheld positions with the locations and channel responses frozen. Keep reflected explanations and inspect a deliberate counterfeit that passes both checks while wrong. Original single-point simulation; coherence remains a trusted assumption. [Explore the recorded experiments](https://nazeeh111.github.io/Caustryn/demo/) · [Run the full Studio](https://github.com/nazeeh111/Caustryn#install-and-run).
 
 **[Sweepforge](https://github.com/nazeeh111/Sweepforge)** · Draw timed motion, fit a one-motor linkage, and inspect what happens between animation frames. Checks modeled bar/tool clearances across a whole cycle and dimension tolerances; exports conceptual SVG/DXF patterns with source and independent replay. Includes a collision missed by 64 nominal frames. No hardware or physical-safety validation. [Browser demo](https://nazeeh111.github.io/Sweepforge/) · [Release](https://github.com/nazeeh111/Sweepforge/releases/tag/v0.1.0).
 
@@ -118,3 +118,4 @@ See each repository's verification notes for its tested scope.
 **Publication note:** Projects are published in batches from local Git workspaces. GitHub upload dates are publication dates, not a development timeline.
 
 </details>
+
