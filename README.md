@@ -20,7 +20,7 @@ These tools have explicit supported scopes. Their repositories include runnable 
 
 ## Results you can independently check
 
-**[Solidrift](https://github.com/nazeeh111/Solidrift)** · Find the shape of a geometry bug. Reduce a supported broken Blender union to a valid small witness, trace its vertices back to the original operands, and test a reversible full-model intervention. The native example shrinks 132 input triangles to 12 while retaining the omission. [Explore the geometry](https://nazeeh111.github.io/Solidrift/) · [Take the evidence](https://github.com/nazeeh111/Solidrift/releases/tag/v0.1.1).
+**[Solidrift](https://github.com/nazeeh111/Solidrift)** · Find the shape of a geometry bug. Reduce a supported broken Blender union to a valid small witness, trace its vertices back to the original operands, and test a reversible full-model intervention. The native example shrinks 132 input triangles to 12 while retaining the omission. [Explore the geometry](https://nazeeh111.github.io/Solidrift/) · [Take the evidence](https://github.com/nazeeh111/Solidrift/releases/tag/v0.1.2).
 
 **[Certloom](https://github.com/nazeeh111/Certloom)** · Send a numerical answer with its exact error bounds and a standalone checker. The local browser lab encloses every component of a supported square system and establishes a threshold only when the bound supports it. Recipients need no original solver. [Check the 64-node example](https://nazeeh111.github.io/Certloom/) · [Portable proof and release](https://github.com/nazeeh111/Certloom/releases/tag/v0.1.0).
 
