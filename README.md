@@ -18,6 +18,10 @@ I build tools that let you keep native instructions, fork live execution, recove
 
 These tools have explicit supported scopes. Their repositories include runnable examples, independent controls, failure behavior, licenses and verification limits. I prefer a precise capability to a universal claim.
 
+## Results you can independently check
+
+**[Certloom](https://github.com/nazeeh111/Certloom)** · Send a numerical answer with its exact error bounds and a standalone checker. The local browser lab encloses every component of a supported square system and establishes a threshold only when the bound supports it. Recipients need no original solver. [Check the 64-node example](https://nazeeh111.github.io/Certloom/) · [Portable proof and release](https://github.com/nazeeh111/Certloom/releases/tag/v0.1.0).
+
 ## Shared creative work
 
 **[Polyweft](https://github.com/nazeeh111/Polyweft)** · Keep both artists’ Blender edits and reveal intersections introduced by combining them. Review prepared branches, merge vertex, UV and material values, and compare native surfaces across the ancestor, both branches and the result with exact witnesses and source-bound edits. Save a freshly reopened native scene. [Try four-state inspection](https://nazeeh111.github.io/Polyweft/interference/) · [Review the Tide merge](https://nazeeh111.github.io/Polyweft/) · [Native examples and release](https://github.com/nazeeh111/Polyweft/releases/tag/v0.2.0).
