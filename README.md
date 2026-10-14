@@ -118,4 +118,3 @@ See each repository's verification notes for its tested scope.
 **Publication note:** Projects are published in batches from local Git workspaces. GitHub upload dates are publication dates, not a development timeline.
 
 </details>
-
