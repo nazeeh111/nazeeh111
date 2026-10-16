@@ -4,7 +4,7 @@
 
 I build tools that let you keep native instructions, fork live execution, recover exact inputs, infer editable binary structure, design mechanical motion, and plan radio experiments. The interesting part is the mechanism. The finish line is a release someone else can actually run.
 
-[Run compiled code on your images](https://nazeeh111.github.io/Capsulith/studio/image.html) · [Fork an execution](https://github.com/nazeeh111/Forkwake#try-it) · [Recover an inverse](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0) · [Learn a file and take its editor](https://nazeeh111.github.io/Reclay/relocation.html)
+[Run compiled code on your images](https://nazeeh111.github.io/Capsulith/studio/image.html) · [Fork an execution](https://github.com/nazeeh111/Forkwake#try-it) · [Compare a stateful edit](https://github.com/nazeeh111/Rewynth#compare-a-stateful-edit) · [Learn a file and take its editor](https://nazeeh111.github.io/Reclay/relocation.html)
 
 ## Four ways to change what software can do
 
@@ -12,7 +12,7 @@ I build tools that let you keep native instructions, fork live execution, recove
 
 **[Forkwake](https://github.com/nazeeh111/Forkwake)** · One suspended workflow, multiple futures. Preserve live JavaScript/WebAssembly state at a named decision, change the answer, and inspect the outcome. Search a declared response tree for a failure requiring the fewest changed answers. Optional source-bound caller frames explain where a decision was made. [Run the example](https://github.com/nazeeh111/Forkwake#try-it).
 
-**[Rewynth](https://github.com/nazeeh111/Rewynth)** · Turn supported register transformations backward. Build and check exact 32/64-bit inverses, inspect execution in both directions, and export runnable C. [64-bit release](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0).
+**[Rewynth](https://github.com/nazeeh111/Rewynth)** · Recover what a supported ARM64 function returns and what it leaves in memory. Compare a stateful edit, expose a skipped update even when the return agrees, and export runnable C. Includes exact register-only inverses and an editable execution trace. Bounded state mode covers one buffer of up to three 64-bit words. [Run the state workbench](https://github.com/nazeeh111/Rewynth#run-it) · [Release 0.4.0](https://github.com/nazeeh111/Rewynth/releases/tag/v0.4.0).
 
 **[Reclay](https://github.com/nazeeh111/Reclay)** · Learn binary blocks and internal addresses from related files, resize a fresh file, and export a guarded Python editor directly in your browser. Edits match independent saves. [Try it](https://nazeeh111.github.io/Reclay/relocation.html) · [Release](https://github.com/nazeeh111/Reclay/releases/tag/v0.3.0).
 
@@ -22,19 +22,21 @@ These tools have explicit supported scopes. Their repositories include runnable 
 
 **[Eidryl](https://github.com/nazeeh111/Eidryl)** · Learn a component’s behavior, then take its executable model. Experiment with a trusted typed API, infer data transformations and hidden modes, and predict new histories in JavaScript without the original runtime. The encoder example distinguishes memory that identical public snapshots miss. Manual signatures and grammar priors remain explicit. [Explore the behavior lab](https://nazeeh111.github.io/Eidryl/) · [Model, interpreter and release](https://github.com/nazeeh111/Eidryl/releases/tag/v0.1.0).
 
-**[Aetiory](https://github.com/nazeeh111/Aetiory)** · Give a failed Python program an alternate future. Automatically test earlier returns, preserve the original failure, and require actual exit/stdout goals plus fresh replay before exporting the investigation. One CLI command and five local agent tools retain the outcome, source and checks. Trusted synchronous Unix Python; the browser reads recorded evidence. [Fork a failed outcome](https://nazeeh111.github.io/Aetiory/) · [Agent tools](https://github.com/nazeeh111/Aetiory/blob/main/docs/AGENTS.md) · [Release](https://github.com/nazeeh111/Aetiory/releases/tag/v0.2.1).
+**[Aetiory](https://github.com/nazeeh111/Aetiory)** · Give a failed Python program an alternate future. Automatically test earlier returns, preserve the original failure, and require actual exit/stdout goals plus fresh replay before exporting the investigation. One CLI command and five local agent tools retain the outcome, source and checks. Trusted synchronous Unix Python; the browser reads recorded evidence. [Fork a failed outcome](https://nazeeh111.github.io/Aetiory/) · [Agent tools](https://github.com/nazeeh111/Aetiory/blob/main/docs/AGENTS.md) · [Release](https://github.com/nazeeh111/Aetiory/releases/tag/v0.2.2).
 
 **[Solidrift](https://github.com/nazeeh111/Solidrift)** · Find the shape of a geometry bug. Reduce a supported broken Blender union to a valid small witness, trace its vertices back to the original operands, and test a reversible full-model intervention. The native example shrinks 132 input triangles to 12 while retaining the omission. [Explore the geometry](https://nazeeh111.github.io/Solidrift/) · [Take the evidence](https://github.com/nazeeh111/Solidrift/releases/tag/v0.1.2).
 
 **[Certloom](https://github.com/nazeeh111/Certloom)** · Send a numerical answer with its exact error bounds and a standalone checker. The local browser lab encloses every component of a supported square system and establishes a threshold only when the bound supports it. Recipients need no original solver. [Check the 64-node example](https://nazeeh111.github.io/Certloom/) · [Portable proof and release](https://github.com/nazeeh111/Certloom/releases/tag/v0.1.0).
 
+**[SchemaRehearsal](https://github.com/nazeeh111/SchemaRehearsal)** · Check the application behavior a SQLite migration must preserve. Replay declared scenarios on isolated before-and-after copies, including explicit full-text search support. The search example catches an update that stops reaching the index while article rows remain intact. [Run the search example](https://github.com/nazeeh111/SchemaRehearsal#keep-search-working-after-a-migration) · [Release 0.4.0](https://github.com/nazeeh111/SchemaRehearsal/releases/tag/v0.4.0).
+
 ## Shared creative work
 
-**[Polyweft](https://github.com/nazeeh111/Polyweft)** · Keep both artists’ Blender edits and reveal intersections introduced by combining them. Review prepared branches, merge vertex, UV and material values, and compare native surfaces across the ancestor, both branches and the result with exact witnesses and source-bound edits. Save a freshly reopened native scene. [Try four-state inspection](https://nazeeh111.github.io/Polyweft/interference/) · [Review the Tide merge](https://nazeeh111.github.io/Polyweft/) · [Native examples and release](https://github.com/nazeeh111/Polyweft/releases/tag/v0.2.0).
+**[Polyweft](https://github.com/nazeeh111/Polyweft)** · Keep both artists’ Blender edits and reveal intersections introduced by combining them. Review prepared branches, merge vertex, UV and material values, and compare native surfaces across the ancestor, both branches and the result with exact witnesses and source-bound edits. Save a freshly reopened native scene. [Try four-state inspection](https://nazeeh111.github.io/Polyweft/interference/) · [Review the Tide merge](https://nazeeh111.github.io/Polyweft/) · [Native examples and release](https://github.com/nazeeh111/Polyweft/releases/tag/v0.2.1).
 
 ## Motion and signals
 
-**[Kinetyl](https://github.com/nazeeh111/Kinetyl)** · Keep an explanation readable while its data moves. Compile label placement and static framing across whole supported trajectories, preserve world coordinates and timing, and export an editable studio or checked native video. Exact declared geometry; native pixels sampled separately. [Edit the crossing](https://nazeeh111.github.io/Kinetyl/) · [Wide and portrait release](https://github.com/nazeeh111/Kinetyl/releases/tag/v0.1.0).
+**[Kinetyl](https://github.com/nazeeh111/Kinetyl)** · Edit a moving explanation, then compile its label placement and framing across whole supported trajectories. Change paths and timing in the browser, keep a portable storyboard, and export wide or portrait plans for native video. Exact declared geometry; native pixels sampled separately. [Open the authoring studio](https://nazeeh111.github.io/Kinetyl/) · [Release 0.3.0](https://github.com/nazeeh111/Kinetyl/releases/tag/v0.3.0).
 
 **[Caustryn](https://github.com/nazeeh111/Caustryn)** · Fit here, predict there. Fit a coherent receiver sweep, then predict whole withheld positions with the locations and channel responses frozen. Keep reflected explanations and inspect a deliberate counterfeit that passes both checks while wrong. Original single-point simulation; coherence remains a trusted assumption. [Explore the recorded experiments](https://nazeeh111.github.io/Caustryn/demo/) · [Run the full Studio](https://github.com/nazeeh111/Caustryn#install-and-run).
 
@@ -51,8 +53,6 @@ Mechanical design, circuit analysis, graphics and sensing experiments are anothe
 
 **[Forkwake](https://github.com/nazeeh111/Forkwake)** splits a live JavaScript or WebAssembly workflow into independent futures at named decisions. It preserves suspended interpreter frames, closures, cyclic objects and Promise jobs, then searches a declared response tree for a failure with the fewest changed answers. Includes a local source editor, compiled SQLite transactions and portable deep cuts. [Run the JavaScript example](https://github.com/nazeeh111/Forkwake#try-it).
 
-**[Rewynth](https://github.com/nazeeh111/Rewynth)** builds and checks inverses of supported 32/64-bit register transformations. Inspect forward and backward execution, recover inputs exactly, and export runnable inverse C code. [Download the 64-bit release](https://github.com/nazeeh111/Rewynth/releases/tag/v0.2.0).
-
 **[Muster](https://github.com/nazeeh111/Muster)** repairs volunteer schedules while preserving locked commitments. It prioritizes coverage, then fewer changes, and explains staffing shortages; timed results state when optimality is unproven. [Open the worksheet](https://nazeeh111.github.io/Muster/).
 
 **[Camwright](https://github.com/nazeeh111/Camwright)** designs in-line roller cams from an editable motion cycle. Geometry checks return Pass, Fail or Unresolved, with saved inputs and inspection evidence. [Run Camwright locally](https://github.com/nazeeh111/Camwright#run-locally).
@@ -60,8 +60,6 @@ Mechanical design, circuit analysis, graphics and sensing experiments are anothe
 **[Sley](https://github.com/nazeeh111/Sley)** adapts supported rising-shed weaving drafts to declared physical pedals and allowed pairs, preserving thread structure, colors and fixed tie-ups. It reports Feasible, Infeasible or Unknown and exports the draft and pedal instructions. [Run Sley locally](https://github.com/nazeeh111/Sley#run-locally).
 
 **[Signelet](https://github.com/nazeeh111/Signelet)** transfers text annotations only when every minimum-cost character alignment agrees on an unchanged span under its alignment model. Ambiguous originals remain available for review. [Try the repeated-word example](https://github.com/nazeeh111/Signelet#try-the-example).
-
-**[SchemaRehearsal](https://github.com/nazeeh111/SchemaRehearsal)** replays declared application scenarios on isolated before-and-after SQLite copies. Its example detects a lost payment-audit trigger despite preserved rows and passing integrity checks. [Rehearse the migration](https://github.com/nazeeh111/SchemaRehearsal#try-a-migration-that-loses-an-audit-trail).
 
 **[AgentLedger](https://github.com/nazeeh111/AgentLedger)** runs bounded local task graphs, verifies artifacts and records command results. Durable checkpoints resume verified command tasks after interruption; Codex review is optional. [Run the offline example](https://github.com/nazeeh111/AgentLedger#run-the-complete-offline-example).
 
