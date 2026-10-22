@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 252" role="img" aria-labelledby="title desc">
+<title id="title">Nazeeh Abdul-Hadi: workbench studies</title>
+<desc id="desc">An original field-sheet illustration of a measured wave, a forked execution path, and a checked geometric result.</desc>
+<rect width="960" height="252" fill="#f4f8fa"/>
+<rect x="1" y="1" width="958" height="250" fill="none" stroke="#b8cbd3" stroke-width="2"/>
+<path d="M320 0v252M640 0v252" stroke="#b8cbd3" stroke-width="1"/>
+<path d="M0 35h960M0 217h960" stroke="#b8cbd3" stroke-width="1"/>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" fill="#3c5965" font-size="11" letter-spacing="2">
+<text x="25" y="23">01 / SENSE</text><text x="345" y="23">02 / INTERVENE</text><text x="665" y="23">03 / VERIFY</text>
+<text x="25" y="237">MEASUREMENT</text><text x="345" y="237">EXECUTION</text><text x="665" y="237">EVIDENCE</text>
+</g>
+<g stroke="#dce8ed" fill="none" stroke-width="1">
+<path d="M25 75h270M25 110h270M25 145h270M25 180h270M60 51v145M105 51v145M150 51v145M195 51v145M240 51v145M285 51v145"/>
+<path d="M345 75h270M345 110h270M345 145h270M345 180h270"/>
+<path d="M665 75h270M665 110h270M665 145h270M665 180h270"/>
+</g>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M25 132 C43 132 43 128 59 128 C75 128 76 158 92 158 C107 158 109 69 124 69 C140 69 143 172 158 172 C174 172 177 97 192 97 C208 97 207 142 223 142 C241 142 241 119 260 119 C276 119 280 130 295 130" stroke="#087e9a" stroke-width="3"/>
+<circle cx="124" cy="69" r="5" fill="#087e9a" stroke="#f4f8fa" stroke-width="2"/>
+<circle cx="192" cy="97" r="4" fill="#a05c00" stroke="#f4f8fa" stroke-width="2"/>
+<path d="M360 125h70m0 0h45m-45 0q30 0 35 -42h46m-81 42q30 0 35 44h46m0 -86h78m-78 86h78" stroke="#3c5965" stroke-width="2"/>
+<path d="M360 125h70m35 -42h46m-46 86h46" stroke="#087e9a" stroke-width="4"/>
+<path d="M465 83h46" stroke="#a05c00" stroke-width="4"/>
+<path d="M685 152l55 -47 34 23 46 -51 46 37 49 -41" stroke="#087e9a" stroke-width="3"/>
+<path d="M685 165l55 -47 34 23 46 -51 46 37 49 -41" stroke="#3c5965" stroke-width="1.5" stroke-dasharray="4 5"/>
+<path d="M680 190h244" stroke="#b8cbd3" stroke-width="1"/>
+</g>
+<g fill="#f4f8fa" stroke="#087e9a" stroke-width="2"><circle cx="430" cy="125" r="9"/><circle cx="511" cy="83" r="7"/><circle cx="511" cy="169" r="7"/><circle cx="588" cy="83" r="7"/><circle cx="588" cy="169" r="7"/></g>
+<g fill="#087e9a" stroke="#f4f8fa" stroke-width="2"><circle cx="740" cy="105" r="5"/><circle cx="820" cy="77" r="5"/><circle cx="915" cy="73" r="5"/></g>
+<path d="M686 59h25m-12 -12v24" stroke="#a05c00" stroke-width="2"/>
+<path d="M905 166l7 7 14 -18" fill="none" stroke="#a05c00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
