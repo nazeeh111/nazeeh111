@@ -24,7 +24,7 @@ I work across software systems, physical sensing, and scientific computing. I li
 
 ### Preserve and change execution
 
-- [Forkwake](https://github.com/nazeeh111/Forkwake#try-it) saves a live JavaScript or WebAssembly decision so one workflow can take multiple futures.
+- [Forkwake](https://github.com/nazeeh111/Forkwake#run-it) saves a live JavaScript or WebAssembly decision so one workflow can take multiple futures.
 - [Rewynth](https://github.com/nazeeh111/Rewynth#run-it) compares ARM64 returns and bounded memory state, exposing edits that a return value alone misses.
 - [Reclay](https://nazeeh111.github.io/Reclay/relocation.html) learns supported binary layouts from related files and exports a guarded standalone editor.
 - [Eidryl](https://nazeeh111.github.io/Eidryl/) infers an executable model of a trusted typed API, including hidden modes revealed by stateful histories.
