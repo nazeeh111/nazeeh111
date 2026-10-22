@@ -4,7 +4,7 @@ I'm Nazeeh Abdul-Hadi. I make tools for the parts of software and science that a
 
 ### Start with a broken mesh
 
-<a href="https://nazeeh111.github.io/Solidrift/"><img src="assets/solidrift-case.png" alt="Solidrift's recorded Blender Boolean failure: original meshes on the left, omitted geometry on the right, and a reduction from 132 triangles to 12." width="960"></a>
+<a href="https://nazeeh111.github.io/Solidrift/"><img src="assets/solidrift-evidence.png" alt="Solidrift's recorded Blender Boolean failure: original meshes on the left, omitted geometry on the right, and a reduction from 132 triangles to 12." width="960"></a>
 
 **132 triangles → a 12-triangle witness.** [Explore Solidrift](https://nazeeh111.github.io/Solidrift/) · [Read the source](https://github.com/nazeeh111/Solidrift). Orbit the original failure, step through 60 accepted reductions, follow the witness back to the full model, test a repair, then undo it. The geometry and Boolean outputs are from a recorded native run; the browser is an explorer.
 
@@ -16,7 +16,7 @@ I'm Nazeeh Abdul-Hadi. I make tools for the parts of software and science that a
 
 **Can a good fit still be false?** [Caustryn's radio lab](https://nazeeh111.github.io/Caustryn/demo/) lets you inspect a recorded synthetic case in which a held-position check passes at a point **3.488 m from the generator's truth**. The example tests an assumption, not real-world sensing accuracy. [Source](https://github.com/nazeeh111/Caustryn).
 
-<a href="https://nazeeh111.github.io/Caustryn/demo/"><img src="assets/caustryn-case.png" alt="Caustryn's recorded synthetic radio counterexample: a selected fitted point and the revealed generator truth are separated, although the held diagnostic passes." width="960"></a>
+<a href="https://nazeeh111.github.io/Caustryn/demo/"><img src="assets/caustryn-evidence.png" alt="Caustryn's recorded synthetic radio counterexample: a selected fitted point and the revealed generator truth are separated, although the held diagnostic passes." width="960"></a>
 
 ## More to open
 
