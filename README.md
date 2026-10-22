@@ -46,8 +46,20 @@ These tools have explicit supported scopes. Their repositories include runnable 
 
 Mechanical design, circuit analysis, graphics and sensing experiments are another part of the work. Live hardware and real-world accuracy are stated separately from simulation and recorded-data checks.
 
+## Upstream contributions
+
+**Merged:** Fixed the zoom-out viewport outline in [Pattern Projector #431](https://github.com/Pattern-Projector/pattern-projector/pull/431). The outline now accounts for signed pan, rotation, reflection and calibration. Added drawing regressions and checked the interaction in a browser; projection hardware was not tested.
+
+**Merged:** Cleaned up the existing Tools list and clarified its contribution format in [awesome-sqlite #10](https://github.com/Airsequel/awesome-sqlite/pull/10), following maintainer review.
+
+Corrected Django package and affected-version mapping in an existing GitHub security advisory. The [published advisory](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm) credits me as **Analyst**. [Accepted change](https://github.com/github/advisory-database/pull/9912).
+
+Submitted a typed binding correction and actual JavaScript/TypeScript regression tests for Binaryen's table element segments: [AssemblyScript/binaryen.js PR #131](https://github.com/AssemblyScript/binaryen.js/pull/131). Submission is recorded separately from upstream acceptance.
+
+Reported a reproducible Unicorn.js timeout abort and supplied a tested source guard: [issue #48](https://github.com/AlexAltea/unicorn.js/issues/48) and [patch](https://github.com/AlexAltea/unicorn.js/issues/48#issuecomment-6135161258). Upstream acceptance is pending.
+
 <details>
-<summary><strong>Project archive, source notes and upstream contributions</strong></summary>
+<summary><strong>Project archive and source notes</strong></summary>
 
 [Reclay](https://github.com/nazeeh111/Reclay) turns examples of supported binary layouts into guarded standalone editors. Both studios run the original Python engine inside your browser. A TIFF description resize rewrites two distant addresses; a WAVE title edit updates nested lengths while preserving every audio sample. Downloads match independent producers. [Open the lab](https://nazeeh111.github.io/Reclay/) or [take the portable experiment](https://github.com/nazeeh111/Reclay/releases/download/v0.3.0/reclay-relocation-lab-0.3.0.zip).
 
@@ -108,14 +120,6 @@ Two small, dependency-free examples behind my database tooling:
 
 - [A table rebuild that loses a payment audit](https://gist.github.com/nazeeh111/4714ddbec0b1df2edc78c8a1ed64000f): identical rows and a passing integrity check, but a missing trigger changes behavior.
 - [A main-file copy that misses committed WAL data](https://gist.github.com/nazeeh111/8e06fcc6bca04f5131e464815d2c26ac): compare file copying with SQLite's backup snapshot.
-
-## Upstream contributions
-
-Corrected Django package and affected-version mapping in an existing GitHub security advisory. The [published advisory](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm) credits me as **Analyst**. [Accepted change](https://github.com/github/advisory-database/pull/9912).
-
-Submitted a typed binding correction and actual JavaScript/TypeScript regression tests for Binaryen's table element segments: [AssemblyScript/binaryen.js PR #131](https://github.com/AssemblyScript/binaryen.js/pull/131). Submission is recorded separately from upstream acceptance.
-
-Reported a reproducible Unicorn.js timeout abort and supplied a tested source guard: [issue #48](https://github.com/AlexAltea/unicorn.js/issues/48) and [patch](https://github.com/AlexAltea/unicorn.js/issues/48#issuecomment-6135161258). Upstream acceptance is pending.
 
 See each repository's verification notes for its tested scope.
 
