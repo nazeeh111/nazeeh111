@@ -1,54 +1,35 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/field-sheet-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/field-sheet-light.svg">
-  <img src="assets/field-sheet-light.svg" alt="A field sheet showing a measured wave, a forked execution path, and a checked geometric result." width="960">
-</picture>
+# I build things that show their work.
 
-# Nazeeh Abdul-Hadi
+I'm Nazeeh Abdul-Hadi. I make tools for the parts of software and science that are hard to see: a branch in a running program, the shape of a geometry failure, a native object's surviving state, or a plausible answer that turns out to be wrong. You can open the work, change the view, and inspect what supports the claim.
 
-**Make hidden behavior visible. Make the result runnable.**
+### Start with a broken mesh
 
-I work across software systems, physical sensing, and scientific computing. I like the moment an invisible behavior becomes something you can point at: an execution branch, a recovered state, a measured volume, or a counterexample. The projects below are built around that moment, with runnable examples and explicit limits.
+<a href="https://nazeeh111.github.io/Solidrift/"><img src="assets/solidrift-case.png" alt="Solidrift's recorded Blender Boolean failure: original meshes on the left, omitted geometry on the right, and a reduction from 132 triangles to 12." width="960"></a>
 
-## Open a workbench
+**132 triangles → a 12-triangle witness.** [Explore Solidrift](https://nazeeh111.github.io/Solidrift/) · [Read the source](https://github.com/nazeeh111/Solidrift). Orbit the original failure, step through 60 accepted reductions, follow the witness back to the full model, test a repair, then undo it. The geometry and Boolean outputs are from a recorded native run; the browser is an explorer.
 
-**[Capsulith](https://github.com/nazeeh111/Capsulith)** · Keep original ARM64 instructions and initialized objects, then call selected methods from a portable Node or browser API. [Run the image workbench](https://nazeeh111.github.io/Capsulith/studio/image.html) with a small PNG or QOI file and inspect returned pixel bytes. The browser executes a prepared native component through the credited Unicorn.js engine; it is a scoped extraction demo, not universal binary recovery.
+## Pick a question
 
-**[Aetiory](https://github.com/nazeeh111/Aetiory)** · Fork a failed Python run at an earlier return, test an alternate value, and replay both outcomes without changing the source. [Explore a recorded diagnosis](https://nazeeh111.github.io/Aetiory/). The live fork requires trusted synchronous Unix Python; the browser presents retained evidence.
+**Can compiled code outlive its original host?** [Capsulith's image workbench](https://nazeeh111.github.io/Capsulith/studio/image.html) calls a prepared ARM64 QOI decoder, displays the returned pixels, then restores its native pixel heap in a fresh worker. [Source and scope](https://github.com/nazeeh111/Capsulith).
 
-**[Caustryn](https://github.com/nazeeh111/Caustryn)** · Fit one explanation to a radio receiver sweep, then predict withheld positions without refitting. [Inspect the recorded experiments](https://nazeeh111.github.io/Caustryn/demo/), including a counterfeit that passes both checks. Its original simulation does not establish performance on measured scenes.
+**Can a failed program take a different path?** [Aetiory's recorded diagnosis](https://nazeeh111.github.io/Aetiory/) shows an earlier Python return changed and both outcomes replayed. The browser displays retained evidence; the live fork runs locally on trusted synchronous Unix Python. [Source](https://github.com/nazeeh111/Aetiory).
 
-**[Solidrift](https://github.com/nazeeh111/Solidrift)** · Reduce a broken Blender Boolean to a small, valid witness and trace the witness back to the original operands. [Explore the geometry](https://nazeeh111.github.io/Solidrift/). The native example shrinks 132 input triangles to 12 while retaining the omission; repairs are tested on the full model.
+**Can a good fit still be false?** [Caustryn's radio lab](https://nazeeh111.github.io/Caustryn/demo/) lets you inspect a recorded synthetic case in which a held-position check passes at a point **3.488 m from the generator's truth**. The example tests an assumption, not real-world sensing accuracy. [Source](https://github.com/nazeeh111/Caustryn).
 
-## Other ways in
+<a href="https://nazeeh111.github.io/Caustryn/demo/"><img src="assets/caustryn-case.png" alt="Caustryn's recorded synthetic radio counterexample: a selected fitted point and the revealed generator truth are separated, although the held diagnostic passes." width="960"></a>
 
-### Preserve and change execution
+## More to open
 
-- [Forkwake](https://github.com/nazeeh111/Forkwake#run-it) saves a live JavaScript or WebAssembly decision so one workflow can take multiple futures.
-- [Rewynth](https://github.com/nazeeh111/Rewynth#run-it) compares ARM64 returns and bounded memory state, exposing edits that a return value alone misses.
-- [Reclay](https://nazeeh111.github.io/Reclay/relocation.html) learns supported binary layouts from related files and exports a guarded standalone editor.
-- [Eidryl](https://nazeeh111.github.io/Eidryl/) infers an executable model of a trusted typed API, including hidden modes revealed by stateful histories.
+- **Execution and recovery:** [Forkwake](https://github.com/nazeeh111/Forkwake#run-it) saves a live JavaScript or WebAssembly decision; [Rewynth](https://github.com/nazeeh111/Rewynth#run-it) compares ARM64 return values and bounded memory; [Reclay](https://nazeeh111.github.io/Reclay/relocation.html) learns supported binary layouts from related files; [Eidryl](https://nazeeh111.github.io/Eidryl/) infers a model of a trusted typed API.
+- **Measurement and reconstruction:** [EchoSight](https://github.com/nazeeh111/EchoSight/blob/backend/implementation/docs/MEASURED_NLOS.md) reconstructs published ultrasound measurements; [EchoAtlas](https://github.com/nazeeh111/EchoAtlas) explores Mac acoustic gesture sensing; [WiPose](https://github.com/nazeeh111/WiPose) separates recorded Wi-Fi pose inference from a hardware-free demo.
+- **Checks you can carry:** [Certloom](https://nazeeh111.github.io/Certloom/) independently checks exact numerical error bounds; [SchemaRehearsal](https://github.com/nazeeh111/SchemaRehearsal#keep-search-working-after-a-migration) replays app behavior across SQLite migrations; [Kinetyl](https://nazeeh111.github.io/Kinetyl/) checks motion-path labels and framing; [Sweepforge](https://nazeeh111.github.io/Sweepforge/) checks modeled linkage clearance.
+- **Create and teach:** [SolidFrame](https://nazeeh111.github.io/SolidFrame/) is an interactive CAD workbench; [Syllune](https://nazeeh111.github.io/Syllune/) is a private math studio. [Browse every repository](https://github.com/nazeeh111?tab=repositories).
 
-### Measure and reconstruct
+## Elsewhere in open source
 
-- [EchoSight](https://github.com/nazeeh111/EchoSight/blob/backend/implementation/docs/MEASURED_NLOS.md) reconstructs published ultrasound measurements into inspectable volumes. Its measured route and separate simulated room route have different evidence.
-- [EchoAtlas](https://github.com/nazeeh111/EchoAtlas) explores Mac speaker-and-microphone gesture controls with calibration and signal inspection. Live-hand accuracy still needs testing.
-- [WiPose](https://github.com/nazeeh111/WiPose) links Wi-Fi channel measurements to 2D pose estimation. The repo separates recorded inference from its hardware-free signal demo.
+- [Pattern Projector #431](https://github.com/Pattern-Projector/pattern-projector/pull/431): merged viewport-outline fix for zoom, pan, rotation, reflection, and calibration. Projection hardware was not tested.
+- [awesome-sqlite #10](https://github.com/Airsequel/awesome-sqlite/pull/10): merged Tools-list and contribution-format improvement after maintainer review.
+- [GitHub advisory GHSA-wvqv-fj8w-qmhm](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm): credited as Analyst for correcting the Django package and affected-version mapping. [Accepted change](https://github.com/github/advisory-database/pull/9912).
+- [Binaryen.js #131](https://github.com/AssemblyScript/binaryen.js/pull/131): submitted a binding correction with JavaScript and TypeScript regression tests; upstream acceptance is pending.
 
-### Carry the check with the result
-
-- [Certloom](https://nazeeh111.github.io/Certloom/) packages exact error bounds for a numerical solve with an independent browser checker.
-- [SchemaRehearsal](https://github.com/nazeeh111/SchemaRehearsal#keep-search-working-after-a-migration) replays application behavior across SQLite migrations, catching changes that row checks miss.
-- [Kinetyl](https://nazeeh111.github.io/Kinetyl/) compiles label placement and camera framing across a whole motion path while retaining an editable storyboard.
-- [Sweepforge](https://nazeeh111.github.io/Sweepforge/) fits a one-motor linkage to timed motion and checks modeled full-cycle clearances.
-
-For more work across CAD, audio, optics, physics, and local developer tools, use the [repository list](https://github.com/nazeeh111?tab=repositories). Each project's README states its supported scope, setup, provenance, and verification limits.
-
-## Work beyond my own repositories
-
-- Fixed the zoom-out viewport outline in [Pattern Projector #431](https://github.com/Pattern-Projector/pattern-projector/pull/431), accounting for pan, rotation, reflection, and calibration. Merged; projection hardware was not tested.
-- Clarified the existing Tools list and contribution format in [awesome-sqlite #10](https://github.com/Airsequel/awesome-sqlite/pull/10). Merged after maintainer review.
-- Corrected a Django package and affected-version mapping in a [published GitHub advisory](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm); the advisory credits me as Analyst. [Accepted change](https://github.com/github/advisory-database/pull/9912).
-- Submitted a [Binaryen.js binding correction](https://github.com/AssemblyScript/binaryen.js/pull/131) with JavaScript and TypeScript regression tests. Submission is distinct from upstream acceptance.
-
-**Publication note:** Projects were published in batches from local Git workspaces. GitHub upload dates are publication dates, not a development timeline. Simulated, recorded, and measured results are identified separately in their repositories.
+*Some projects use recorded or simulated data, and others run native code locally or in the browser. Each repository states what was actually measured, what was replayed, and where its claims stop. GitHub upload dates reflect publication from local Git workspaces, not the full development timeline.*
