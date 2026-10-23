@@ -2,7 +2,7 @@
 
 I'm Nazeeh. I build systems software, geometry tools, and scientific workbenches. I like getting close to the details: the instructions behind a pixel, the topology behind a mesh failure, the assumption behind a radio fit.
 
-**Open a working example:** [Inspect the missing-body case](https://nazeeh111.github.io/Solidrift/) · [Open the native image workbench](https://nazeeh111.github.io/Capsulith/studio/image.html) · [Investigate a passing counterfeit](https://nazeeh111.github.io/Caustryn/demo/?case=exact-counterfeit)
+**Open a working example:** [Inspect the missing-body case](https://nazeeh111.github.io/Solidrift/) · [Open the native image workbench](https://nazeeh111.github.io/Capsulith/studio/image.html) · [Investigate a passing counterfeit](https://nazeeh111.github.io/Caustryn/demo/?case=exact-counterfeit) · [Open PhysicsBench](https://nazeeh111.github.io/PhysicsBench/)
 
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/workbench-mobile-dark.png">
@@ -21,6 +21,7 @@ I'm Nazeeh. I build systems software, geometry tools, and scientific workbenches
 
 Also explore:
 
+- **Physics · [PhysicsBench](https://github.com/nazeeh111/PhysicsBench):** test acoustic models against a separate probe, infer motion from image observations, and reopen records that recompute their results. [Open the live lab](https://nazeeh111.github.io/PhysicsBench/).
 - **Motion · [Kinetyl](https://nazeeh111.github.io/Kinetyl/):** inspect a label collision at 3.00 s, compile the layout, and compare the repaired trajectory.
 - **Numerical computing · [Certloom](https://github.com/nazeeh111/Certloom):** check linear-equation error bounds independently of the original solver.
 - **CAD · [SolidFrame](https://nazeeh111.github.io/SolidFrame/):** edit plates and brackets in a browser, then export STEP and STL.
