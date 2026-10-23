@@ -8,18 +8,24 @@ I'm Nazeeh. I build systems software, geometry tools, and scientific workbenches
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/workbench-mobile-dark.png">
   <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/workbench-mobile-light.png">
   <source media="(prefers-color-scheme: dark)" srcset="assets/workbench-dark.png">
-  <img src="assets/workbench-light.png" alt="Three separate projects: Solidrift's original two-body input and recorded one-body FLOAT output; a pixel crop from Capsulith's prepared image with RGBA 126, 135, 250, 255 at 64,48; and three inked equations from the current Syllune studio. The Solidrift image does not show the later reduced witness. Syllune's hosted checks use typed steps, not handwriting recognition." width="1000">
+  <img src="assets/workbench-light.png" alt="Three separate projects: Solidrift's original two-solid inputs and recorded FLOAT output with one body absent; its 132-to-12-triangle reduction is described, not pictured. Capsulith's prepared image crop marks source pixel 64,48 with RGBA 126,135,250,255. Syllune's typed checker flags 2x=20 after 2x+6=14, explains the changed solution set, and blocks x=10 until that earlier step is reviewed." width="1000">
 </picture>
 
-*Three separate projects. Syllune ink is pictured; its hosted step checker uses typed text. [Image sources](assets/workbench-provenance.md).*
+*Three separate projects: a recorded geometry failure, prepared image bytes, and an actual typed-step check. [Image sources](assets/workbench-provenance.md).*
 
 ## Inside the projects
 
-- **[Solidrift](https://github.com/nazeeh111/Solidrift):** a Blender Boolean dropped one body. Inspect its recorded reduction from 132 triangles to a 12-triangle witness, then explore the recorded repair and undo. The image above shows the *original* input and FLOAT output; a new native run needs local Blender.
-- **[Capsulith](https://github.com/nazeeh111/Capsulith):** run a prepared ARM64 QOI component in your browser, compare returned RGBA pixels, then restore its native image allocation in a fresh worker. The pictured crop is from its prepared source image.
-- **[Syllune](https://github.com/nazeeh111/Syllune):** write in a private notebook, check supported typed steps, and practice from the first error. The pictured ink is from the current studio; handwriting recognition requires the optional local Mac companion.
+- **Geometry · [Solidrift](https://github.com/nazeeh111/Solidrift):** reduce a recorded Blender failure from 132 to 12 triangles while keeping both inputs valid. Inspect mesh ancestry, repair and undo. New native runs use local Blender.
+- **Systems · [Capsulith](https://github.com/nazeeh111/Capsulith):** run an original compiled image codec in your browser, inspect its returned pixels, and reopen initialized memory in a fresh worker.
+- **Math learning · [Syllune](https://github.com/nazeeh111/Syllune):** find an incorrect typed step and practice from the first error. Ink stays editable; optional recognition runs through a local Mac companion.
 
-Elsewhere, [Caustryn](https://nazeeh111.github.io/Caustryn/demo/?case=exact-counterfeit) exposes a synthetic radio-fit check that accepts a wrong point; [Certloom](https://github.com/nazeeh111/Certloom) checks stored linear equations independently of its solver; and [SolidFrame](https://nazeeh111.github.io/SolidFrame/) makes editable browser CAD that exports STEP and STL. [Browse the full project index](https://nazeeh111.github.io/).
+Also explore:
+
+- **Radio · [Caustryn](https://nazeeh111.github.io/Caustryn/demo/?case=exact-counterfeit):** a synthetic fit passes while missing the generator's point by 3.488 m.
+- **Numerical computing · [Certloom](https://github.com/nazeeh111/Certloom):** check linear-equation error bounds independently of the original solver.
+- **CAD · [SolidFrame](https://nazeeh111.github.io/SolidFrame/):** edit plates and brackets in a browser, then export STEP and STL.
+
+[Browse the full project index →](https://nazeeh111.github.io/)
 
 ## Work accepted elsewhere
 
