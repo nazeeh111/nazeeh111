@@ -5,10 +5,10 @@ I'm Nazeeh. I build systems software, geometry tools, and scientific workbenches
 **Open a working example:** [Inspect the missing-body case](https://nazeeh111.github.io/Solidrift/) · [Open the native image workbench](https://nazeeh111.github.io/Capsulith/studio/image.html) · [Investigate a passing counterfeit](https://nazeeh111.github.io/Caustryn/demo/?case=exact-counterfeit)
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/workbench-mobile-dark.png">
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/workbench-mobile-light.png">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/workbench-dark.png">
-  <img src="assets/workbench-light.png" alt="Three separate projects: Solidrift's original two-solid inputs and recorded FLOAT output with one body absent; its 132-to-12-triangle reduction is described, not pictured. Capsulith's prepared image crop marks source pixel 64,48 with RGBA 126,135,250,255. Caustryn's recorded synthetic radio fit passes two held poses but sits 3.488 metres from the generator's point in 3D. The X/Y plot and numeric 3D separation are distinct; stable response remains a trusted assumption." width="1000">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/workbench-sensing-mobile-dark.png">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/workbench-sensing-mobile-light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/workbench-sensing-dark.png">
+  <img src="assets/workbench-sensing-light.png" alt="Three separate projects: Solidrift's original two-solid inputs and recorded FLOAT output with one body absent; its 132-to-12-triangle reduction is described, not pictured. Capsulith's prepared image crop marks source pixel 64,48 with RGBA 126,135,250,255. Caustryn's recorded synthetic radio fit passes two held poses but sits 3.488 metres from the generator's point in 3D. The X/Y plot and numeric 3D separation are distinct; stable response remains a trusted assumption." width="1000">
 </picture>
 
 *Three separate projects: a recorded geometry failure, prepared image bytes, and a synthetic radio fit that passes while missing its target. [Image sources](assets/workbench-provenance.md).*
