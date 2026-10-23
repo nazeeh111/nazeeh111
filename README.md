@@ -1,31 +1,31 @@
-# A mesh, a pixel, a math step
+# A mesh, a pixel, a signal
 
-I'm Nazeeh. I build systems software, geometry tools, and scientific workbenches. I like getting close to the details: the instructions behind a pixel, the topology behind a mesh failure, the step that changed a math answer.
+I'm Nazeeh. I build systems software, geometry tools, and scientific workbenches. I like getting close to the details: the instructions behind a pixel, the topology behind a mesh failure, the assumption behind a radio fit.
 
-**Open a working example:** [Inspect the missing-body case](https://nazeeh111.github.io/Solidrift/) · [Open the native image workbench](https://nazeeh111.github.io/Capsulith/studio/image.html) · [Check a math step](https://nazeeh111.github.io/Syllune/)
+**Open a working example:** [Inspect the missing-body case](https://nazeeh111.github.io/Solidrift/) · [Open the native image workbench](https://nazeeh111.github.io/Capsulith/studio/image.html) · [Investigate a passing counterfeit](https://nazeeh111.github.io/Caustryn/demo/?case=exact-counterfeit)
 
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/workbench-mobile-dark.png">
   <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/workbench-mobile-light.png">
   <source media="(prefers-color-scheme: dark)" srcset="assets/workbench-dark.png">
-  <img src="assets/workbench-light.png" alt="Three separate projects: Solidrift's original two-solid inputs and recorded FLOAT output with one body absent; its 132-to-12-triangle reduction is described, not pictured. Capsulith's prepared image crop marks source pixel 64,48 with RGBA 126,135,250,255. Syllune's typed checker flags 2x=20 after 2x+6=14, explains the changed solution set, and blocks x=10 until that earlier step is reviewed." width="1000">
+  <img src="assets/workbench-light.png" alt="Three separate projects: Solidrift's original two-solid inputs and recorded FLOAT output with one body absent; its 132-to-12-triangle reduction is described, not pictured. Capsulith's prepared image crop marks source pixel 64,48 with RGBA 126,135,250,255. Caustryn's recorded synthetic radio fit passes two held poses but sits 3.488 metres from the generator's point in 3D. The X/Y plot and numeric 3D separation are distinct; stable response remains a trusted assumption." width="1000">
 </picture>
 
-*Three separate projects: a recorded geometry failure, prepared image bytes, and an actual typed-step check. [Image sources](assets/workbench-provenance.md).*
+*Three separate projects: a recorded geometry failure, prepared image bytes, and a synthetic radio fit that passes while missing its target. [Image sources](assets/workbench-provenance.md).*
 
 ## Inside the projects
 
 - **Geometry · [Solidrift](https://github.com/nazeeh111/Solidrift):** reduce a recorded Blender failure from 132 to 12 triangles while keeping both inputs valid. Inspect mesh ancestry, repair and undo. New native runs use local Blender.
 - **Systems · [Capsulith](https://github.com/nazeeh111/Capsulith):** run an original compiled image codec in your browser, inspect its returned pixels, and reopen initialized memory in a fresh worker.
-- **Math learning · [Syllune](https://github.com/nazeeh111/Syllune):** find an incorrect typed step and practice from the first error. Ink stays editable; optional recognition runs through a local Mac companion.
+- **Radio · [Caustryn](https://nazeeh111.github.io/Caustryn/demo/?case=exact-counterfeit):** a synthetic fit passes two held positions while missing the generator's point by 3.488 m. Inspect what the check proves and what it assumes.
 
 Also explore:
 
-- **Radio · [Caustryn](https://nazeeh111.github.io/Caustryn/demo/?case=exact-counterfeit):** a synthetic fit passes while missing the generator's point by 3.488 m.
+- **Motion · [Kinetyl](https://nazeeh111.github.io/Kinetyl/):** inspect a label collision at 3.00 s, compile the layout, and compare the repaired trajectory.
 - **Numerical computing · [Certloom](https://github.com/nazeeh111/Certloom):** check linear-equation error bounds independently of the original solver.
 - **CAD · [SolidFrame](https://nazeeh111.github.io/SolidFrame/):** edit plates and brackets in a browser, then export STEP and STL.
 
-[Browse the full project index →](https://nazeeh111.github.io/)
+[Browse the project index →](https://nazeeh111.github.io/)
 
 ## Work accepted elsewhere
 

@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="810" viewBox="0 0 1000 810" role="img" aria-labelledby="title desc">
 <title id="title">Three project artifacts from Nazeeh Abdul-Hadi</title>
-<desc id="desc">Solidrift original input and recorded FLOAT output, a prepared Capsulith image pixel fragment with an exact RGBA sample, and the actual typed Syllune check that flags step two and blocks step three. These are separate projects.</desc>
-<rect x="0" y="0" width="1000" height="650" fill="#f5f8fa" opacity="1"/>
+<desc id="desc">Solidrift original input and recorded FLOAT output, a prepared Capsulith image pixel fragment with an exact RGBA sample, and Caustryn’s recorded synthetic radio fit, which passes its held check 3.488 metres from the generator point. These are separate projects.</desc>
+<rect x="0" y="0" width="1000" height="810" fill="#f5f8fa" opacity="1"/>
 <text x="26" y="34" fill="#4a5c68" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="1.5">FROM MY WORKBENCH</text>
 <path d="M26 48L974 48" fill="none" stroke="#cad6dd" stroke-width="1"/>
 <text x="26" y="89" fill="#172431" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing="0">SOLIDRIFT</text>
@@ -1283,14 +1283,32 @@
 <text x="637" y="397" fill="#172431" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="0">Preserve the native pixel allocation.</text>
 <text x="637" y="425" fill="#4a5c68" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" letter-spacing="0">Reopen it in a fresh worker.</text>
 <path d="M26 454L974 454" fill="none" stroke="#cad6dd" stroke-width="1"/>
-<text x="26" y="491" fill="#172431" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing="0">SYLLUNE</text>
-<text x="26" y="518" fill="#4a5c68" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" letter-spacing="0">Typed steps · actual checker result</text>
-<text x="26" y="561" fill="#172431" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" letter-spacing="0">2x + 6 = 14</text>
-<text x="26" y="600" fill="#9a2944" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing="0">2x = 20</text>
-<text x="207" y="600" fill="#9a2944" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" letter-spacing="0">← first error</text>
-<text x="380" y="493" fill="#9a2944" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="0">“This step changes the result.”</text>
-<text x="380" y="528" fill="#172431" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" letter-spacing="0">The real solution set changed. Check signs, both sides,</text>
-<text x="380" y="553" fill="#172431" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" letter-spacing="0">and whether any solutions were lost.</text>
-<text x="380" y="592" fill="#4a5c68" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" letter-spacing="0">x = 10</text>
-<text x="488" y="592" fill="#4a5c68" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" letter-spacing="0">Blocked: review the earlier step first.</text>
+<text x="26" y="492" fill="#172431" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing="0">CAUSTRYN</text>
+<text x="26" y="521" fill="#172431" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" letter-spacing="0">A passing radio fit. A wrong point.</text>
+<path d="M35 566L35 742" fill="none" stroke="#cad6dd" stroke-width="0.9"/>
+<path d="M150.33 566L150.33 742" fill="none" stroke="#cad6dd" stroke-width="0.9"/>
+<path d="M265.67 566L265.67 742" fill="none" stroke="#cad6dd" stroke-width="0.9"/>
+<path d="M381 566L381 742" fill="none" stroke="#cad6dd" stroke-width="0.9"/>
+<path d="M35 742L381 742" fill="none" stroke="#cad6dd" stroke-width="0.9"/>
+<path d="M35 683.33L381 683.33" fill="none" stroke="#cad6dd" stroke-width="0.9"/>
+<path d="M35 624.67L381 624.67" fill="none" stroke="#cad6dd" stroke-width="0.9"/>
+<path d="M35 566L381 566" fill="none" stroke="#cad6dd" stroke-width="0.9"/>
+<path d="M171.73 620.65L290.23 701.37" fill="none" stroke="#4a5c68" stroke-width="1"/>
+<rect x="285.23" y="696.37" width="10" height="10" fill="#456611" opacity="1"/>
+<polygon points="171.73,613.65 178.73,620.65 171.73,627.65 164.73,620.65" fill="#97471e" fill-opacity="0.16" stroke="#97471e" stroke-opacity=".78" stroke-width="2"/>
+<text x="302.23" y="692.37" fill="#456611" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="0">fit</text>
+<text x="183.73" y="611.65" fill="#97471e" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="0">truth</text>
+<text x="35" y="551" fill="#4a5c68" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" letter-spacing="0">X/Y view · metres</text>
+<text x="35" y="770" fill="#4a5c68" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" letter-spacing="0">0</text>
+<text x="369" y="770" fill="#4a5c68" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" letter-spacing="0">6</text>
+<text x="26" y="791" fill="#4a5c68" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" letter-spacing="0">Synthetic recorded case · exact counterfeit</text>
+<text x="446" y="492" fill="#456611" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="0">Held check passes.</text>
+<text x="446" y="548" fill="#97471e" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="700" letter-spacing="0">3.488 m</text>
+<text x="446" y="579" fill="#97471e" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" letter-spacing="0">from the synthetic generator’s point</text>
+<text x="446" y="610" fill="#4a5c68" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" letter-spacing="0">3D separation from the stored coordinates</text>
+<text x="446" y="650" fill="#172431" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="0">5 training poses → 2 withheld poses · frozen fit</text>
+<text x="446" y="679" fill="#172431" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" letter-spacing="0">Reduced residuals: train 0.920 · held 1.067</text>
+<text x="446" y="720" fill="#172431" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" letter-spacing="0">Changing response counterfeits another location.</text>
+<text x="446" y="748" fill="#4a5c68" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" letter-spacing="0">Stable response across receiver positions remains</text>
+<text x="446" y="773" fill="#4a5c68" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" letter-spacing="0">a trusted assumption.</text>
 </svg>
