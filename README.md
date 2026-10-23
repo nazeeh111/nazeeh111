@@ -1,34 +1,26 @@
-# What did the result leave out?
+# A mesh, a pixel, a math step
 
-A Blender Boolean can silently lose a whole input and still produce a mesh. A saved program can take a different path after one return changes. A radio fit can pass its own check and still be far from synthetic truth. I build tools to open these results and find out why. I also make places to design and learn.
+I'm Nazeeh Abdul-Hadi. These artifacts come from three separate tools I built: one traces a missing body in a recorded Blender result, one runs a prepared ARM64 image routine, and one pairs handwritten math with checks on typed steps. Pick a working example below.
 
-[Open the project index](https://nazeeh111.github.io/) · [Browse the repositories](https://github.com/nazeeh111?tab=repositories)
-
-## The missing body
-
-**132 triangles → a 12-triangle witness.** [Explore the Solidrift case](https://nazeeh111.github.io/Solidrift/) · [Watch the 19-second tour](https://nazeeh111.github.io/Solidrift/tour.html)
+**Open a working example:** [Inspect the missing-body case](https://nazeeh111.github.io/Solidrift/) · [Open the native image workbench](https://nazeeh111.github.io/Capsulith/studio/image.html) · [Check a math step](https://nazeeh111.github.io/Syllune/)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/missing-body-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/missing-body-light.svg">
-  <img src="assets/missing-body-light.svg" alt="In Solidrift's recorded Blender Boolean case, the input view shows two overlapping mesh bodies; the FLOAT output view shows one visible body. Both panels show only the original 132-triangle stage; the later 12-triangle witness is not depicted." width="640">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/workbench-mobile-dark.png">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/workbench-mobile-light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/workbench-dark.png">
+  <img src="assets/workbench-light.png" alt="Three separate projects: Solidrift's original two-body input and recorded one-body FLOAT output; a pixel crop from Capsulith's prepared image with RGBA 126, 135, 250, 255 at 64,48; and three inked equations from the current Syllune studio. The Solidrift image does not show the later reduced witness. Syllune's hosted checks use typed steps, not handwriting recognition." width="1000">
 </picture>
 
-Step through the accepted reductions, trace the witness back to the full model, test an input repair, and undo it. The meshes and Boolean outputs come from a recorded native run; the browser lets you inspect them. [Source and limits](https://github.com/nazeeh111/Solidrift).
+*Three separate projects. Syllune ink is pictured; its hosted step checker uses typed text. [Image sources](assets/workbench-provenance.md).*
 
-## Two more cases to open
+## The work behind the objects
 
-- **A changed program path.** [Aetiory](https://nazeeh111.github.io/Aetiory/) compares what followed two returns in a retained Python failure. The browser case is recorded; live forking runs locally. [Source](https://github.com/nazeeh111/Aetiory).
-- **A plausible answer that is wrong.** [Caustryn](https://nazeeh111.github.io/Caustryn/demo/?case=exact-counterfeit) lets you reveal why a held-position check passes at a point 3.488 m from synthetic truth. This is a counterexample to a test, not a real-world accuracy measurement. [Source](https://github.com/nazeeh111/Caustryn).
+- **[Solidrift](https://github.com/nazeeh111/Solidrift)** reduces a recorded Blender Boolean failure from 132 input triangles to a 12-triangle witness while keeping the missing-body behavior. The paired meshes above show the *original* input and FLOAT output; the smaller witness is in the case. The browser inspects recorded native results, with local Blender reproduction available from source.
+- **[Capsulith](https://github.com/nazeeh111/Capsulith)** keeps original ARM64 instructions inside a prepared QOI image component. Its workbench encodes, decodes, checks RGBA pixels, and restores an owned native image allocation in a fresh worker. This is a known-source component with declared contracts, not arbitrary application recovery.
+- **[Syllune](https://github.com/nazeeh111/Syllune)** is a private math notebook for ink, supported exact step checks, and practice. The ink above is from its current studio. The hosted check reads a typed transcript; optional handwriting recognition needs the local Mac companion.
 
-## I also make
-
-- [SolidFrame](https://nazeeh111.github.io/SolidFrame/): design an editable plate or bracket in browser CAD, then export a STEP or STL file. Built on Chili3D. [Source](https://github.com/nazeeh111/SolidFrame).
-- [Syllune](https://nazeeh111.github.io/Syllune/): work through a math problem with ink, step checks, and targeted practice in a private studio. [Source](https://github.com/nazeeh111/Syllune).
-
-The [project index](https://nazeeh111.github.io/) has the rest of the browser experiments and local tools.
+Elsewhere, [Caustryn](https://nazeeh111.github.io/Caustryn/demo/?case=exact-counterfeit) exposes a synthetic radio-fit check that accepts a wrong point; [Certloom](https://github.com/nazeeh111/Certloom) checks stored linear equations independently of its solver; and [SolidFrame](https://nazeeh111.github.io/SolidFrame/) makes editable browser CAD that exports STEP and STL. [Browse the full project index](https://nazeeh111.github.io/).
 
 ## Work accepted elsewhere
 
-- [Pattern Projector #431](https://github.com/Pattern-Projector/pattern-projector/pull/431): merged viewport-outline fix across zoom, pan, rotation, reflection, and calibration. Projection hardware was not tested.
-- [GitHub advisory GHSA-wvqv-fj8w-qmhm](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm): credited as Analyst for correcting the Django package and affected-version mapping. [Accepted change](https://github.com/github/advisory-database/pull/9912).
+My [Pattern Projector viewport fix](https://github.com/Pattern-Projector/pattern-projector/pull/431) was merged across zoom, pan, rotation, reflection, and calibration; projection hardware was not tested. GitHub credited me as Analyst on an [advisory correction](https://github.com/github/advisory-database/pull/9912) to Django's package and affected-version mapping ([GHSA-wvqv-fj8w-qmhm](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm)).
