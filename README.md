@@ -1,6 +1,6 @@
 # A mesh, a pixel, a math step
 
-I'm Nazeeh Abdul-Hadi. These artifacts come from three separate tools I built: one traces a missing body in a recorded Blender result, one runs a prepared ARM64 image routine, and one pairs handwritten math with checks on typed steps. Pick a working example below.
+I'm Nazeeh. I like to open an answer back up. Shrink a mesh failure, follow pixels through preserved code, or find the math step that changed the result.
 
 **Open a working example:** [Inspect the missing-body case](https://nazeeh111.github.io/Solidrift/) · [Open the native image workbench](https://nazeeh111.github.io/Capsulith/studio/image.html) · [Check a math step](https://nazeeh111.github.io/Syllune/)
 
@@ -15,9 +15,9 @@ I'm Nazeeh Abdul-Hadi. These artifacts come from three separate tools I built: o
 
 ## The work behind the objects
 
-- **[Solidrift](https://github.com/nazeeh111/Solidrift)** reduces a recorded Blender Boolean failure from 132 input triangles to a 12-triangle witness while keeping the missing-body behavior. The paired meshes above show the *original* input and FLOAT output; the smaller witness is in the case. The browser inspects recorded native results, with local Blender reproduction available from source.
-- **[Capsulith](https://github.com/nazeeh111/Capsulith)** keeps original ARM64 instructions inside a prepared QOI image component. Its workbench encodes, decodes, checks RGBA pixels, and restores an owned native image allocation in a fresh worker. This is a known-source component with declared contracts, not arbitrary application recovery.
-- **[Syllune](https://github.com/nazeeh111/Syllune)** is a private math notebook for ink, supported exact step checks, and practice. The ink above is from its current studio. The hosted check reads a typed transcript; optional handwriting recognition needs the local Mac companion.
+- **[Solidrift](https://github.com/nazeeh111/Solidrift):** a Blender Boolean dropped one body. Inspect its recorded reduction from 132 triangles to a 12-triangle witness, then explore the recorded repair and undo. The image above shows the *original* input and FLOAT output; a new native run needs local Blender.
+- **[Capsulith](https://github.com/nazeeh111/Capsulith):** run a prepared ARM64 QOI component in your browser, compare returned RGBA pixels, then restore its native image allocation in a fresh worker. The pictured crop is from its prepared source image.
+- **[Syllune](https://github.com/nazeeh111/Syllune):** write in a private notebook, check supported typed steps, and practice from the first error. The pictured ink is from the current studio; handwriting recognition requires the optional local Mac companion.
 
 Elsewhere, [Caustryn](https://nazeeh111.github.io/Caustryn/demo/?case=exact-counterfeit) exposes a synthetic radio-fit check that accepts a wrong point; [Certloom](https://github.com/nazeeh111/Certloom) checks stored linear equations independently of its solver; and [SolidFrame](https://nazeeh111.github.io/SolidFrame/) makes editable browser CAD that exports STEP and STL. [Browse the full project index](https://nazeeh111.github.io/).
 
