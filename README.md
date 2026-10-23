@@ -8,7 +8,11 @@ A Blender Boolean can silently lose a whole input and still produce a mesh. A sa
 
 **132 triangles → a 12-triangle witness.** [Explore the Solidrift case](https://nazeeh111.github.io/Solidrift/) · [Watch the 19-second tour](https://nazeeh111.github.io/Solidrift/tour.html)
 
-<a href="https://nazeeh111.github.io/Solidrift/"><img src="assets/solidrift-evidence-v2.png" alt="Solidrift's recorded Blender Boolean case: original meshes on the left; FLOAT output on the right omits one input. The source failure was reduced from 132 triangles to a 12-triangle witness." width="960"></a>
+<a href="https://nazeeh111.github.io/Solidrift/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/missing-body-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/missing-body-light.svg">
+  <img src="assets/missing-body-light.svg" alt="In Solidrift's recorded Blender Boolean case, the input view shows two overlapping mesh bodies; the FLOAT output view shows one visible body. Both panels show only the original 132-triangle stage; the later 12-triangle witness is not depicted." width="640">
+</picture></a>
 
 Step through the accepted reductions, trace the witness back to the full model, test an input repair, and undo it. The meshes and Boolean outputs come from a recorded native run; the browser lets you inspect them. [Source and limits](https://github.com/nazeeh111/Solidrift).
 
