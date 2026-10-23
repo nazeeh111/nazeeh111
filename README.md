@@ -1,6 +1,6 @@
 # A mesh, a pixel, a math step
 
-I'm Nazeeh. I like to open an answer back up. Shrink a mesh failure, follow pixels through preserved code, or find the math step that changed the result.
+I'm Nazeeh. I build systems software, geometry tools, and scientific workbenches. I like getting close to the details: the instructions behind a pixel, the topology behind a mesh failure, the step that changed a math answer.
 
 **Open a working example:** [Inspect the missing-body case](https://nazeeh111.github.io/Solidrift/) · [Open the native image workbench](https://nazeeh111.github.io/Capsulith/studio/image.html) · [Check a math step](https://nazeeh111.github.io/Syllune/)
 
@@ -13,7 +13,7 @@ I'm Nazeeh. I like to open an answer back up. Shrink a mesh failure, follow pixe
 
 *Three separate projects. Syllune ink is pictured; its hosted step checker uses typed text. [Image sources](assets/workbench-provenance.md).*
 
-## The work behind the objects
+## Inside the projects
 
 - **[Solidrift](https://github.com/nazeeh111/Solidrift):** a Blender Boolean dropped one body. Inspect its recorded reduction from 132 triangles to a 12-triangle witness, then explore the recorded repair and undo. The image above shows the *original* input and FLOAT output; a new native run needs local Blender.
 - **[Capsulith](https://github.com/nazeeh111/Capsulith):** run a prepared ARM64 QOI component in your browser, compare returned RGBA pixels, then restore its native image allocation in a fresh worker. The pictured crop is from its prepared source image.
