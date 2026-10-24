@@ -22,6 +22,7 @@ I'm Nazeeh. I build systems software, geometry tools, and scientific workbenches
 Also explore:
 
 - **Physics · [PhysicsBench](https://github.com/nazeeh111/PhysicsBench):** test acoustic models against a separate probe, infer motion from image observations, and reopen records that recompute their results. [Open the live lab](https://nazeeh111.github.io/PhysicsBench/).
+- **Electronics · [LadderProof](https://github.com/nazeeh111/LadderProof):** bound worst-case adjacent-code steps for ideal 2–6-bit R-2R DACs with exact arithmetic and independently recomputed certificates.
 - **Motion · [Kinetyl](https://nazeeh111.github.io/Kinetyl/):** inspect a label collision at 3.00 s, compile the layout, and compare the repaired trajectory.
 - **Numerical computing · [Certloom](https://github.com/nazeeh111/Certloom):** check linear-equation error bounds independently of the original solver.
 - **CAD · [SolidFrame](https://nazeeh111.github.io/SolidFrame/):** edit plates and brackets in a browser, then export STEP and STL.
