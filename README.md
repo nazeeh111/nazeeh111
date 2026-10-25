@@ -21,6 +21,7 @@ I'm Nazeeh. I build systems software, geometry tools, and scientific workbenches
 
 Also explore:
 
+- **Ultrasound · [EchoSight](https://github.com/nazeeh111/EchoSight):** inspect a published measured NLOS reconstruction, native depth slices and threshold diagnostics, and reproduce the released Figure 2 input. [Open the measured scene](https://nazeeh111.github.io/EchoSight/) · [Evidence and limits](https://github.com/nazeeh111/EchoSight/blob/backend/implementation/docs/MEASURED_NLOS.md).
 - **Physics · [PhysicsBench](https://github.com/nazeeh111/PhysicsBench):** test acoustic models against a separate probe, infer motion from image observations, and reopen records that recompute their results. [Open the live lab](https://nazeeh111.github.io/PhysicsBench/).
 - **Electronics · [LadderProof](https://github.com/nazeeh111/LadderProof):** bound worst-case adjacent-code steps for ideal 2–6-bit R-2R DACs with exact arithmetic and independently recomputed certificates.
 - **Motion · [Kinetyl](https://nazeeh111.github.io/Kinetyl/):** inspect a label collision at 3.00 s, compile the layout, and compare the repaired trajectory.
