@@ -21,6 +21,7 @@ I'm Nazeeh. I build systems software, geometry tools, and scientific workbenches
 
 Also explore:
 
+- **Scan to CAD · [ObjectDNA](https://github.com/nazeeh111/ObjectDNA#quickstart):** fit prealigned scans of brackets, open enclosures and drilled blocks; edit dimensions and export STEP or CadQuery source.
 - **SQLite · [SchemaRehearsal](https://github.com/nazeeh111/SchemaRehearsal):** replay writes and queries on before/after copies to catch migration behavior changes. [Run the search example](https://github.com/nazeeh111/SchemaRehearsal/blob/main/docs/full-text-search.md).
 - **Ultrasound · [EchoSight](https://github.com/nazeeh111/EchoSight):** inspect a published measured NLOS reconstruction, native depth slices and threshold diagnostics, and reproduce the released Figure 2 input. [Open the measured scene](https://nazeeh111.github.io/EchoSight/) · [Evidence and limits](https://github.com/nazeeh111/EchoSight/blob/backend/implementation/docs/MEASURED_NLOS.md).
 - **Physics · [PhysicsBench](https://github.com/nazeeh111/PhysicsBench):** test acoustic models against a separate probe, infer motion from image observations, and reopen records that recompute their results. [Open the live lab](https://nazeeh111.github.io/PhysicsBench/).
