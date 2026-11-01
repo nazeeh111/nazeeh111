@@ -4,6 +4,8 @@ I build systems software, geometry tools, and scientific instruments.
 
 [Open the measured scene](https://nazeeh111.github.io/EchoSight/) · [Browse the project index](https://nazeeh111.github.io/)
 
+[Choose a project: examples, code and evidence](START_HERE.md)
+
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/workbench-presentation-mobile-dark.png">
   <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/workbench-presentation-mobile-light.png">
