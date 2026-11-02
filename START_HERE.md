@@ -20,6 +20,22 @@ Run a prepared QOI image codec from its compiled ARM64 instructions and inspect 
 
 **Limit:** The examples do not establish equivalence for arbitrary binaries or security isolation.
 
+## Stateful code: Rewynth
+
+Inspect a deliberately dropped memory write: an immediate return can still match while the post-state differs. Each subsequent call uses that model's resulting memory state.
+
+[Try the state lesson](https://nazeeh111.github.io/Rewynth/lesson/) · [Lesson runtime](https://github.com/nazeeh111/Rewynth/blob/e9f4261b9ffda97186fa1ced4cbcfc6a78516189/docs/lesson/model-runtime.mjs) · [Scope and independent controls](https://github.com/nazeeh111/Rewynth/blob/e9f4261b9ffda97186fa1ced4cbcfc6a78516189/docs/lesson/README.md)
+
+**Limit:** ARM64 recovery and fresh solver queries run locally; the browser executes the exported C models in WebAssembly.
+
+## SQLite migrations: Keepstep
+
+Inspect a recorded migration that leaves an update successful while search stops finding the updated article. Repaired and unchanged controls retain the search hit.
+
+[Inspect the recorded reports](https://nazeeh111.github.io/SchemaRehearsal/) · [Workload engine](https://github.com/nazeeh111/SchemaRehearsal/blob/ec5fb93152744216781e65da13a68850a05ba72e/src/schema_rehearsal/engine.py) · [Method and reproduction](https://github.com/nazeeh111/SchemaRehearsal/blob/ec5fb93152744216781e65da13a68850a05ba72e/docs/full-text-search.md)
+
+**Limit:** Only declared workloads are compared; the general database checks omit full FTS5 index/content consistency.
+
 ## Imaging research: EchoSight
 
 Explore a reconstruction from published measured ultrasound data. The code adapts the released Figure 2 method and retains the source and output provenance.

@@ -26,7 +26,8 @@ Recorded runs, prepared pixels, and a synthetic radio experiment. [Image provena
 <summary>More projects</summary>
 
 - **[ObjectDNA](https://github.com/nazeeh111/ObjectDNA#quickstart):** Fit prealigned scans of brackets, open enclosures and drilled blocks.
-- **[SchemaRehearsal (Keepstep)](https://github.com/nazeeh111/SchemaRehearsal):** Compare the same workload before and after a SQLite migration. [Search example](https://github.com/nazeeh111/SchemaRehearsal/blob/main/docs/full-text-search.md).
+- **[SchemaRehearsal (Keepstep)](https://github.com/nazeeh111/SchemaRehearsal):** Compare the same workload before and after a SQLite migration. [Recorded search example](https://nazeeh111.github.io/SchemaRehearsal/).
+- **[Rewynth](https://github.com/nazeeh111/Rewynth):** See why matching returns can hide a dropped memory write. [Browser state lesson](https://nazeeh111.github.io/Rewynth/lesson/).
 - **[PhysicsBench](https://github.com/nazeeh111/PhysicsBench):** Explore acoustic models and motion experiments. [Live lab](https://nazeeh111.github.io/PhysicsBench/).
 - **[LadderProof](https://github.com/nazeeh111/LadderProof):** Check exact step bounds for ideal 2–6-bit R-2R DACs.
 - **[Kinetyl](https://nazeeh111.github.io/Kinetyl/):** Inspect and repair a label collision at 3.00 s.
@@ -37,5 +38,6 @@ Recorded runs, prepared pixels, and a synthetic radio experiment. [Image provena
 
 ## Accepted contributions
 
+- [PyVista](https://github.com/pyvista/pyvista/pull/9457): closed the periodic seams in `ParametricKlein`.
 - [Pattern Projector](https://github.com/Pattern-Projector/pattern-projector/pull/431): viewport transforms and calibration. Projection hardware was not tested.
 - [GitHub advisory database](https://github.com/github/advisory-database/pull/9912): corrected Django package and affected-version mapping. [Advisory and credit](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm).
