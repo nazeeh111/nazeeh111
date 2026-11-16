@@ -1,43 +1,36 @@
 # Nazeeh Abdul-Hadi
 
-I build systems software, geometry tools, and scientific instruments.
+I build geometry tools, systems software, and scientific computing projects.
 
-[Open the measured scene](https://nazeeh111.github.io/EchoSight/) · [Browse the project index](https://nazeeh111.github.io/)
+[Projects and research](https://nazeeh111.github.io/) · [A closer look at the engineering](START_HERE.md)
 
-[Choose a project: examples, code and evidence](START_HERE.md)
-
+<a href="https://nazeeh111.github.io/Solidrift/">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/workbench-presentation-mobile-dark.png">
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/workbench-presentation-mobile-light.png">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/workbench-presentation-dark.png">
-  <img src="assets/workbench-presentation-light.png" alt="Three projects: a recorded mesh failure, decoded native image pixels, and a synthetic radio counterexample." width="1000">
+  <source media="(max-width: 600px)" srcset="assets/solidrift-comparison-mobile.svg">
+  <img src="assets/solidrift-comparison.svg" alt="Solidrift: two input mesh solids beside the recorded Blender union, where one body is missing." width="1000">
 </picture>
+</a>
 
-Recorded runs, prepared pixels, and a synthetic radio experiment. [Image provenance](assets/workbench-presentation-provenance.md).
+**A Blender union dropped a solid.** Solidrift reduces the recorded failure from 132 triangles to 12 while preserving the defect. [Follow the reduction](https://nazeeh111.github.io/Solidrift/) · [Code and evidence](https://github.com/nazeeh111/Solidrift). The figure shows the original case; [source and fixture credits](assets/solidrift-comparison-provenance.md).
 
-## Selected work
+## Explore the work
 
-- **[EchoSight](https://github.com/nazeeh111/EchoSight):** Reconstruct published ultrasound measurements into inspectable volumes. [Measured scene](https://nazeeh111.github.io/EchoSight/) · [Evidence](https://github.com/nazeeh111/EchoSight/blob/backend/implementation/docs/MEASURED_NLOS.md).
-- **[Solidrift](https://github.com/nazeeh111/Solidrift):** Reduce a recorded Blender failure to 12 triangles. [Demo](https://nazeeh111.github.io/Solidrift/).
-- **[Capsulith](https://github.com/nazeeh111/Capsulith):** Run a compiled image codec in your browser. [Workbench](https://nazeeh111.github.io/Capsulith/studio/image.html).
-- **[Caustryn (PhaseGlass)](https://nazeeh111.github.io/Caustryn/demo/?case=exact-counterfeit):** Challenge a synthetic radio fit that passes at the wrong point.
+- **[SolidFrame](https://github.com/nazeeh111/SolidFrame)**: browser CAD built on Chili3D, with editable mechanical parts and STEP/STL export. [Open the workspace](https://nazeeh111.github.io/SolidFrame/).
+- **[Capsulith](https://github.com/nazeeh111/Capsulith)**: execute compiled ARM64 image code, retain its pixel allocation, and inspect it in a fresh worker. [Run the image workbench](https://nazeeh111.github.io/Capsulith/studio/image.html).
+- **[LadderProof](https://github.com/nazeeh111/LadderProof)**: find nonmonotonic steps in ideal resistor-ladder DACs using exact tolerance bounds and replayable counterexamples.
+- **[MaterialMind](https://github.com/nazeeh111/MaterialMind)**: explore crystal features, stability models, and retrospective active-learning experiments.
+- **[EchoSight](https://github.com/nazeeh111/EchoSight)**: reconstruct published ultrasound measurements with an attributed method port and an interactive volume viewer. [Measured-data case](https://nazeeh111.github.io/EchoSight/).
+- **[QLOOM](https://github.com/nazeeh111/QLOOM)**: compile small quantum circuits and inspect independent numerical equivalence checks.
+- **[nstack](https://github.com/nazeeh111/nstack)**: find and activate reviewed specialist tools from a native coding setup on a Mac.
 
-<details>
-<summary>More projects</summary>
+## Research
 
-- **[ObjectDNA](https://github.com/nazeeh111/ObjectDNA#quickstart):** Fit prealigned scans of brackets, open enclosures and drilled blocks.
-- **[SchemaRehearsal (Keepstep)](https://github.com/nazeeh111/SchemaRehearsal):** Compare the same workload before and after a SQLite migration. [Recorded search example](https://nazeeh111.github.io/SchemaRehearsal/).
-- **[Rewynth](https://github.com/nazeeh111/Rewynth):** See why matching returns can hide a dropped memory write. [Browser state lesson](https://nazeeh111.github.io/Rewynth/lesson/).
-- **[PhysicsBench](https://github.com/nazeeh111/PhysicsBench):** Explore acoustic models and motion experiments. [Live lab](https://nazeeh111.github.io/PhysicsBench/).
-- **[LadderProof](https://github.com/nazeeh111/LadderProof):** Check exact step bounds for ideal 2–6-bit R-2R DACs.
-- **[Kinetyl](https://nazeeh111.github.io/Kinetyl/):** Inspect and repair a label collision at 3.00 s.
-- **[Certloom (Enclose)](https://github.com/nazeeh111/Certloom):** Check error bounds for stored linear systems independently of the solver.
-- **[SolidFrame](https://nazeeh111.github.io/SolidFrame/):** Edit a part and export STEP or STL.
+[Quantum measurements, physical models, numerical methods and learning systems](https://nazeeh111.github.io/research/). Each study links its method, results, limits, manuscript and available source.
 
-</details>
+Start with [two-copy quantum measurements](https://nazeeh111.github.io/research/phaseglass-quantum/): an exact result for states whose whole-block purity statistics match, with a separate finite-shot simulation.
 
 ## Accepted contributions
 
-- [PyVista](https://github.com/pyvista/pyvista/pull/9457): closed the periodic seams in `ParametricKlein`.
-- [Pattern Projector](https://github.com/Pattern-Projector/pattern-projector/pull/431): viewport transforms and calibration. Projection hardware was not tested.
+- [PyVista](https://github.com/pyvista/pyvista/pull/9457): closed periodic seams in `ParametricKlein`.
+- [Pattern Projector](https://github.com/Pattern-Projector/pattern-projector/pull/431): viewport transforms and calibration fixes. Projection hardware was not tested.
 - [GitHub advisory database](https://github.com/github/advisory-database/pull/9912): corrected Django package and affected-version mapping. [Advisory and credit](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm).
