@@ -34,3 +34,10 @@ Start with [two-copy quantum measurements](https://nazeeh111.github.io/research/
 - [PyVista](https://github.com/pyvista/pyvista/pull/9457): closed periodic seams in `ParametricKlein`.
 - [Pattern Projector](https://github.com/Pattern-Projector/pattern-projector/pull/431): viewport transforms and calibration fixes. Projection hardware was not tested.
 - [GitHub advisory database](https://github.com/github/advisory-database/pull/9912): corrected Django package and affected-version mapping. [Advisory and credit](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm).
+
+<details>
+<summary>Maintaining this profile</summary>
+
+Run `python3 scripts/check_profile.py` from any working directory, using the script's full path when outside this checkout. It checks local inline Markdown and HTML references, the current image-to-provenance map in `profile-assets.json`, SVG descriptions and fixed-revision GitHub source-link syntax. Inline links support simple labels, balanced or angle-bracketed destinations and quoted or parenthesized titles. Reference-style links, autolinks and Markdown code-block interpretation are outside this small lint rule. It runs offline without dependencies and does not verify remote availability, rendered appearance or the scientific claims. Update the map and the credited provenance note together when replacing a current image. Historical artwork stays in `assets/`.
+
+</details>

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "images": {
+    "assets/solidrift-comparison.svg": "assets/solidrift-comparison-provenance.md",
+    "assets/solidrift-comparison-mobile.svg": "assets/solidrift-comparison-provenance.md"
+  }
+}

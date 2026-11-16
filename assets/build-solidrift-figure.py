@@ -18,8 +18,9 @@ def element(parent, tag, attributes, text=None):
 source = ET.parse(ROOT / "assets/missing-body-light.svg").getroot()
 panels = source.findall(f"{{{NS}}}svg")
 assert len(panels) == 2
-mobile = ET.Element(f"{{{NS}}}svg", {"width": "640", "height": "820", "viewBox": "0 0 640 820", "role": "img", "aria-labelledby": "mobile-title"})
+mobile = ET.Element(f"{{{NS}}}svg", {"width": "640", "height": "820", "viewBox": "0 0 640 820", "role": "img", "aria-labelledby": "mobile-title mobile-description"})
 element(mobile, "title", {"id": "mobile-title"}, "Two input solids and Blender's recorded union: original 132-triangle stage")
+element(mobile, "desc", {"id": "mobile-description"}, "Both panels depict the original 132-triangle stage, not the reduced witness. Two input solids above; one body missing from the recorded FLOAT union below.")
 element(mobile, "rect", {"width": "640", "height": "820", "fill": "#132a48"})
 for index, (panel, label) in enumerate(zip(panels, ["Two input solids", "Blender returned one"])):
     projected = deepcopy(panel)
