@@ -1,8 +1,15 @@
-# Selected work: a two-minute tour
+# Inside the engineering
 
-Start with a recorded geometry failure, compiled image code, or a reconstruction from published measurements. Each path below connects an example to its implementation and evidence. Source links point to fixed revisions; hosted examples can change independently.
+A result is more useful when you can inspect how it was produced. These routes connect a concrete example to its implementation, reproduction notes and limits. Source links point to fixed revisions; hosted examples can change independently.
 
-For a two-minute visit, open the Solidrift recorded case, then its evidence. Choose another section for a deeper inspection.
+| If you want to inspect… | Start here |
+| --- | --- |
+| A geometry failure reduced to a small witness | [Solidrift](#geometry-and-debugging-solidrift) |
+| Native code, memory and continued execution | [Capsulith](#native-code-and-state-capsulith) or [Rewynth](#stateful-code-rewynth) |
+| A migration that silently breaks search | [Keepstep](#sqlite-migrations-keepstep) (SchemaRehearsal repository) |
+| Reconstruction from published measurements | [EchoSight](#imaging-research-echosight) |
+| Browser target resolution and its boundaries | [ReplaySmith](#browser-automation-replaysmith) |
+| Exact bounds for an ideal circuit | [LadderProof](#exact-computation-ladderproof) |
 
 ## Geometry and debugging: Solidrift
 

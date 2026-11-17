@@ -1,8 +1,11 @@
-"""Recompose preserved, recorded mesh projections. No new geometry is solved."""
+"""Compose the preserved mesh projections; no new geometry or native run.
 
+The original source and required fixture notices stay beside the output.
+"""
+
+from copy import deepcopy
 from pathlib import Path
 import xml.etree.ElementTree as ET
-from copy import deepcopy
 
 ROOT = Path(__file__).resolve().parents[1]
 NS = "http://www.w3.org/2000/svg"
@@ -15,27 +18,50 @@ def element(parent, tag, attributes, text=None):
     return result
 
 
+def figure(width, height, name):
+    root = ET.Element(f"{{{NS}}}svg", {
+        "width": str(width), "height": str(height),
+        "viewBox": f"0 0 {width} {height}", "role": "img",
+        "aria-labelledby": f"{name}-title {name}-description",
+    })
+    element(root, "title", {"id": f"{name}-title"},
+            "Two input solids; one body missing from Blender's recorded union")
+    element(root, "desc", {"id": f"{name}-description"},
+            "Both panels show the original 132-triangle case, not the reduced witness. "
+            "The left or upper panel contains the two overlapping input solids. "
+            "The right or lower panel shows the stored FLOAT union with one body absent.")
+    element(root, "style", {}, """/* Hallmark · profile evidence figure · preserved source geometry, responsive comparison */
+:root { --ground: #08121d; --ink: #eaf1f6; --muted: #b0c1cf; --line: #304555; --face: Arial, Helvetica, sans-serif; }
+.label { fill: var(--ink); font-family: var(--face); font-weight: 600; }
+.note { fill: var(--muted); font-family: var(--face); }
+""")
+    element(root, "rect", {"width": str(width), "height": str(height), "fill": "var(--ground)"})
+    return root
+
+
 source = ET.parse(ROOT / "assets/missing-body-light.svg").getroot()
 panels = source.findall(f"{{{NS}}}svg")
-assert len(panels) == 2
-mobile = ET.Element(f"{{{NS}}}svg", {"width": "640", "height": "820", "viewBox": "0 0 640 820", "role": "img", "aria-labelledby": "mobile-title mobile-description"})
-element(mobile, "title", {"id": "mobile-title"}, "Two input solids and Blender's recorded union: original 132-triangle stage")
-element(mobile, "desc", {"id": "mobile-description"}, "Both panels depict the original 132-triangle stage, not the reduced witness. Two input solids above; one body missing from the recorded FLOAT union below.")
-element(mobile, "rect", {"width": "640", "height": "820", "fill": "#132a48"})
-for index, (panel, label) in enumerate(zip(panels, ["Two input solids", "Blender returned one"])):
-    projected = deepcopy(panel)
-    projected.attrib.update(x="24", y=str(index * 410 + 75), width="592", height="300")
-    mobile.append(projected)
-    element(mobile, "text", {"x": "28", "y": str(index * 410 + 48), "font-family": "sans-serif", "font-size": "34", "font-weight": "600", "fill": "#ffffff"}, label)
-ET.ElementTree(mobile).write(ROOT / "assets/solidrift-comparison-mobile.svg", encoding="unicode", xml_declaration=False)
+if len(panels) != 2:
+    raise ValueError("Expected the two preserved original-case projections")
 
-figure = ET.Element(f"{{{NS}}}svg", {"width": "1000", "height": "520", "viewBox": "0 0 1000 520", "role": "img", "aria-labelledby": "title desc"})
-element(figure, "title", {"id": "title"}, "The missing solid: original recorded Blender union")
-element(figure, "desc", {"id": "desc"}, "Both panels depict the original 132-triangle stage, not the reduced witness. Two input solids on the left; one body missing from the recorded FLOAT union on the right.")
-element(figure, "rect", {"width": "1000", "height": "520", "fill": "#132a48"})
-for index, (panel, label) in enumerate(zip(panels, ["Two input solids", "Blender returned one"])):
-    panel.attrib.update(x=str(index * 500), y="90", width="500", height="380")
-    figure.append(panel)
-    element(figure, "text", {"x": str(index * 500 + 22), "y": "48", "font-family": "sans-serif", "font-size": "24", "font-weight": "600", "fill": "#ffffff"}, label)
-element(figure, "text", {"x": "22", "y": "506", "font-family": "sans-serif", "font-size": "16", "fill": "#d2def0"}, "Original 132-triangle case · recorded FLOAT union")
-ET.ElementTree(figure).write(ROOT / "assets/solidrift-comparison.svg", encoding="unicode", xml_declaration=False)
+for mobile in (False, True):
+    width, height = (640, 740) if mobile else (1000, 370)
+    root = figure(width, height, "mobile" if mobile else "comparison")
+    for index, (panel, label) in enumerate(zip(panels, ["Two input solids", "Recorded union: one missing"])):
+        projected = deepcopy(panel)
+        if mobile:
+            x, y, w, h = 24, index * 340 + 70, 592, 265
+            tx, ty, fs = 28, index * 340 + 44, 31
+        else:
+            x, y, w, h = index * 500 + 16, 66, 468, 246
+            tx, ty, fs = index * 500 + 24, 40, 25
+        projected.attrib.update(x=str(x), y=str(y), width=str(w), height=str(h))
+        root.append(projected)
+        element(root, "text", {"x": str(tx), "y": str(ty), "class": "label", "font-size": str(fs)}, label)
+    if not mobile:
+        element(root, "path", {"d": "M500 72V306", "stroke": "var(--line)", "stroke-width": "1"})
+    element(root, "text", {"x": "28" if mobile else "24", "y": str(height - 24),
+                            "class": "note", "font-size": "28" if mobile else "20"},
+            "Original 132-triangle case. Stored native output.")
+    name = "solidrift-comparison-mobile.svg" if mobile else "solidrift-comparison.svg"
+    ET.ElementTree(root).write(ROOT / "assets" / name, encoding="unicode", xml_declaration=False)
