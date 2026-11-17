@@ -32,8 +32,11 @@ The figure shows the original 132-triangle case, not the reduced witness. [Figur
 **Systems with state that matters**  
 [Capsulith](https://github.com/nazeeh111/Capsulith): prepared ARM64 image code with preserved pixel allocation. [Run the workbench](https://nazeeh111.github.io/Capsulith/studio/image.html). [Rewynth](https://github.com/nazeeh111/Rewynth): the memory changes a return value can miss.
 
-**Models with explicit assumptions**  
-[LadderProof](https://github.com/nazeeh111/LadderProof): exact tolerance bounds for ideal resistor-ladder DACs. [MaterialMind](https://github.com/nazeeh111/MaterialMind): crystal features, stability models and retrospective active-learning experiments.
+**Machine learning and evaluation**\
+[MaterialMind](https://github.com/nazeeh111/MaterialMind): crystal-stability models, active-learning decisions and native sessions with explicit uncertainty checks. [QubitGuard](https://github.com/nazeeh111/QubitGuard): compare learned and matching decoders through saved correction outcomes.
+
+**Circuits with exact bounds**\
+[LadderProof](https://github.com/nazeeh111/LadderProof): exact tolerance bounds for ideal resistor-ladder DACs.
 
 **Tools for doing the work**  
 [nstack](https://github.com/nazeeh111/nstack): reviewed specialist tools in a native Mac coding setup.
@@ -45,7 +48,7 @@ The figure shows the original 132-triangle case, not the reduced witness. [Figur
 ## Contributions accepted upstream
 
 - [PyVista](https://github.com/pyvista/pyvista/pull/9457): closed periodic seams in `ParametricKlein`.
-- [Pattern Projector](https://github.com/Pattern-Projector/pattern-projector/pull/431): viewport transforms and calibration fixes. Projection hardware was not tested.
+- [Pattern Projector](https://github.com/Pattern-Projector/pattern-projector/pull/431): corrected viewport outlines under panning and projective transforms. Projection hardware was not tested.
 - [GitHub advisory database](https://github.com/github/advisory-database/pull/9912): corrected Django package and affected-version mapping. [Advisory and credit](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm).
 
 [Look closer at the engineering](START_HERE.md) for fixed-revision source links, reproduction paths and the boundaries of each result.
