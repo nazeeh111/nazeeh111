@@ -1,27 +1,80 @@
-# Nazeeh Abdul-Hadi
-
-**I build across physics and software.**
-
-I study electrical engineering and physics at Virginia Tech, and build tools that make models inspectable.
-
-[Explore the portfolio](https://nazeeh111.github.io/) | [Take the engineering tour](START_HERE.md) | [Read the research](https://nazeeh111.github.io/research/)
-
-## The union that lost a solid
-
-**Solidrift reduces a recorded Blender failure from 132 triangles to 12**, preserving the missing-body defect at every accepted step.
-
-<a href="https://nazeeh111.github.io/Solidrift/">
+<a id="nazeeh-abdul-hadi"></a>
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/solidrift-comparison-mobile.svg">
-  <img src="assets/solidrift-comparison.svg" alt="Solidrift's original recorded case: two overlapping mesh solids are input; one body is absent from Blender's returned union. The later reduction reaches a 12-triangle witness." width="1000">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile-v3/cover-mobile-dark.png">
+  <source media="(max-width: 600px)" srcset="assets/profile-v3/cover-mobile-light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-v3/cover-wide-dark.png">
+  <img src="assets/profile-v3/cover-wide-light.png" width="1000" alt="Nazeeh Abdul-Hadi. Electrical engineering and physics at Virginia Tech.">
 </picture>
-</a>
 
-[Follow the reduction](https://nazeeh111.github.io/Solidrift/) | [Inspect the code and evidence](https://github.com/nazeeh111/Solidrift)
+I study electrical engineering and physics at Virginia Tech. I build tools for models, circuits and scientific computing.
 
-The figure shows the original 132-triangle case, not the reduced witness. [Figure source and fixture credits](assets/solidrift-comparison-provenance.md).
+**[Portfolio](https://nazeeh111.github.io/) · [Research](https://nazeeh111.github.io/research/) · [Engineering tour](START_HERE.md)**
 
-## Find your field
+<a id="find-your-field"></a>
+## Selected work
+
+### PhotonSmith
+
+Design periodic photonic gratings and inspect the Maxwell field, spectrum and numerical cross-checks.
+
+[Source and local setup](https://github.com/nazeeh111/PhotonSmith) · [Worked numerical design](https://github.com/nazeeh111/PhotonSmith/blob/a3ecad3af5f0bb957334f58f73379c886463aa42/docs/presentation/README.md)
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/profile-v3/photonsmith-mobile.png">
+  <img src="assets/profile-v3/photonsmith.png" width="1000" alt="PhotonSmith's retained 1550-nanometre numerical design: real electric field across one periodic cell and target-order efficiency across stored wavelengths. Axes, units and field color scale are retained.">
+</picture>
+
+Stored Maxwell simulation, not a fabricated-device measurement. [Figure source and terms](assets/profile-v3/PROVENANCE.md).
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/nazeeh111/SILICONPILOT">SiliconPilot</a></h3>
+<p>Compile a small neural classifier into Verilog.</p>
+<p><sub>Fixed-point RTL, simulation and synthesis.</sub></p>
+<a href="https://nazeeh111.github.io/SILICONPILOT/">Recorded circuits</a>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/nazeeh111/MaterialMind">MaterialMind</a></h3>
+<p>Explore crystal-stability predictions and their uncertainty.</p>
+<p><sub>Retrospective models against archived DFT.</sub></p>
+<a href="https://github.com/nazeeh111/MaterialMind/blob/c879afa4b616649cac73ef46b010f24e12ed3544/docs/presentation/README.md">Worked crystal example</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/nazeeh111/MorphProof">MorphProof</a></h3>
+<p>Translate supported numerical Python to Rust and reduce disagreements.</p>
+<p><sub>Finite behavioral checks and reduced counterexamples.</sub></p>
+<a href="https://github.com/nazeeh111/MorphProof">Compiler and Studio</a>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/nazeeh111/LadderProof">LadderProof</a></h3>
+<p>Bound resistor tolerances in ideal ladder DACs.</p>
+<p><sub>Ideal static circuits with independent verification.</sub></p>
+<a href="https://github.com/nazeeh111/LadderProof">Circuit workbench and source</a>
+</td>
+</tr>
+</table>
+
+<a id="research-you-can-inspect"></a>
+## Research
+
+[Two-copy quantum measurements](https://nazeeh111.github.io/research/phaseglass-quantum/): an exact result for a specified state family, plus separate finite-shot simulations.
+
+[More research](https://nazeeh111.github.io/research/) in physical models, numerical methods and learning systems, with methods, sources and limits.
+
+<a id="contributions-accepted-upstream"></a>
+## Upstream contributions
+
+- [PyVista](https://github.com/pyvista/pyvista/pull/9457): closed periodic seams in `ParametricKlein`.
+- [Pattern Projector](https://github.com/Pattern-Projector/pattern-projector/pull/431): corrected viewport outlines under panning and projective transforms. Projection hardware was not tested.
+- [GitHub advisory database](https://github.com/github/advisory-database/pull/9912): corrected Django package and affected-version mapping. [Advisory and credit](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm).
+
+[Look closer at the engineering](START_HERE.md) for fixed-revision source links, reproduction paths and the boundaries of each result.
+
+<details>
+<summary>More fields and the earlier geometry case</summary>
 
 **Geometry you can work with**  
 [SolidFrame](https://github.com/nazeeh111/SolidFrame): browser CAD built on Chili3D, with editable mechanical parts and STEP/STL export. [Open CAD](https://nazeeh111.github.io/SolidFrame/).
@@ -41,17 +94,24 @@ The figure shows the original 132-triangle case, not the reduced witness. [Figur
 **Tools for doing the work**  
 [nstack](https://github.com/nazeeh111/nstack): reviewed specialist tools in a native Mac coding setup.
 
-## Research you can inspect
 
-**Can two copies reveal what purity tests miss?** [The two-copy quantum measurement study](https://nazeeh111.github.io/research/phaseglass-quantum/) gives an exact result for a specified state family, plus a separate finite-shot simulation. [More studies, methods and limits](https://nazeeh111.github.io/research/).
+## The union that lost a solid
 
-## Contributions accepted upstream
+**Solidrift reduces a recorded Blender failure from 132 triangles to 12**, preserving the missing-body defect at every accepted step.
 
-- [PyVista](https://github.com/pyvista/pyvista/pull/9457): closed periodic seams in `ParametricKlein`.
-- [Pattern Projector](https://github.com/Pattern-Projector/pattern-projector/pull/431): corrected viewport outlines under panning and projective transforms. Projection hardware was not tested.
-- [GitHub advisory database](https://github.com/github/advisory-database/pull/9912): corrected Django package and affected-version mapping. [Advisory and credit](https://github.com/advisories/GHSA-wvqv-fj8w-qmhm).
+<a href="https://nazeeh111.github.io/Solidrift/">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/solidrift-comparison-mobile.svg">
+  <img src="assets/solidrift-comparison.svg" alt="Solidrift's original recorded case: two overlapping mesh solids are input; one body is absent from Blender's returned union. The later reduction reaches a 12-triangle witness." width="1000">
+</picture>
+</a>
 
-[Look closer at the engineering](START_HERE.md) for fixed-revision source links, reproduction paths and the boundaries of each result.
+[Follow the reduction](https://nazeeh111.github.io/Solidrift/) | [Inspect the code and evidence](https://github.com/nazeeh111/Solidrift)
+
+The figure shows the original 132-triangle case, not the reduced witness. [Figure source and fixture credits](assets/solidrift-comparison-provenance.md).
+
+
+</details>
 
 <details>
 <summary>Profile source and checks</summary>

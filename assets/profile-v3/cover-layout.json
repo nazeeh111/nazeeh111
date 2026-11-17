@@ -1,0 +1,186 @@
+{
+  "cover-wide-light": {
+    "width": 1000,
+    "height": 340,
+    "text": [
+      {
+        "text": "Nazeeh",
+        "x": 40,
+        "baseline_y": 139,
+        "font_size": 124,
+        "weight": 750,
+        "advance_width": 372.0
+      },
+      {
+        "text": "Abdul-Hadi",
+        "x": 40,
+        "baseline_y": 267,
+        "font_size": 124,
+        "weight": 750,
+        "advance_width": 547.212
+      },
+      {
+        "text": "Electrical",
+        "x": 702,
+        "baseline_y": 109,
+        "font_size": 33,
+        "weight": 500,
+        "advance_width": 115.79700000000001
+      },
+      {
+        "text": "engineering",
+        "x": 702,
+        "baseline_y": 147,
+        "font_size": 33,
+        "weight": 500,
+        "advance_width": 148.5
+      },
+      {
+        "text": "+ physics",
+        "x": 702,
+        "baseline_y": 204,
+        "font_size": 33,
+        "weight": 500,
+        "advance_width": 117.61200000000001
+      },
+      {
+        "text": "Virginia Tech",
+        "x": 702,
+        "baseline_y": 267,
+        "font_size": 33,
+        "weight": 500,
+        "advance_width": 162.06300000000002
+      }
+    ]
+  },
+  "cover-mobile-light": {
+    "width": 600,
+    "height": 420,
+    "text": [
+      {
+        "text": "Nazeeh",
+        "x": 30,
+        "baseline_y": 104,
+        "font_size": 86,
+        "weight": 750,
+        "advance_width": 258.0
+      },
+      {
+        "text": "Abdul-Hadi",
+        "x": 30,
+        "baseline_y": 198,
+        "font_size": 86,
+        "weight": 750,
+        "advance_width": 379.518
+      },
+      {
+        "text": "Electrical engineering",
+        "x": 30,
+        "baseline_y": 309,
+        "font_size": 31,
+        "weight": 500,
+        "advance_width": 254.355
+      },
+      {
+        "text": "+ physics at Virginia Tech",
+        "x": 30,
+        "baseline_y": 356,
+        "font_size": 31,
+        "weight": 500,
+        "advance_width": 298.282
+      }
+    ]
+  },
+  "cover-wide-dark": {
+    "width": 1000,
+    "height": 340,
+    "text": [
+      {
+        "text": "Nazeeh",
+        "x": 40,
+        "baseline_y": 139,
+        "font_size": 124,
+        "weight": 750,
+        "advance_width": 372.0
+      },
+      {
+        "text": "Abdul-Hadi",
+        "x": 40,
+        "baseline_y": 267,
+        "font_size": 124,
+        "weight": 750,
+        "advance_width": 547.212
+      },
+      {
+        "text": "Electrical",
+        "x": 702,
+        "baseline_y": 109,
+        "font_size": 33,
+        "weight": 500,
+        "advance_width": 115.79700000000001
+      },
+      {
+        "text": "engineering",
+        "x": 702,
+        "baseline_y": 147,
+        "font_size": 33,
+        "weight": 500,
+        "advance_width": 148.5
+      },
+      {
+        "text": "+ physics",
+        "x": 702,
+        "baseline_y": 204,
+        "font_size": 33,
+        "weight": 500,
+        "advance_width": 117.61200000000001
+      },
+      {
+        "text": "Virginia Tech",
+        "x": 702,
+        "baseline_y": 267,
+        "font_size": 33,
+        "weight": 500,
+        "advance_width": 162.06300000000002
+      }
+    ]
+  },
+  "cover-mobile-dark": {
+    "width": 600,
+    "height": 420,
+    "text": [
+      {
+        "text": "Nazeeh",
+        "x": 30,
+        "baseline_y": 104,
+        "font_size": 86,
+        "weight": 750,
+        "advance_width": 258.0
+      },
+      {
+        "text": "Abdul-Hadi",
+        "x": 30,
+        "baseline_y": 198,
+        "font_size": 86,
+        "weight": 750,
+        "advance_width": 379.518
+      },
+      {
+        "text": "Electrical engineering",
+        "x": 30,
+        "baseline_y": 309,
+        "font_size": 31,
+        "weight": 500,
+        "advance_width": 254.355
+      },
+      {
+        "text": "+ physics at Virginia Tech",
+        "x": 30,
+        "baseline_y": 356,
+        "font_size": 31,
+        "weight": 500,
+        "advance_width": 298.282
+      }
+    ]
+  }
+}
