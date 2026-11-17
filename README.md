@@ -14,7 +14,7 @@ I study electrical engineering and physics at Virginia Tech. I build tools for m
 <a id="find-your-field"></a>
 ## Selected work
 
-### PhotonSmith
+### [PhotonSmith](https://nazeeh111.github.io/work/photonsmith/)
 
 Design periodic photonic gratings and inspect the Maxwell field, spectrum and numerical cross-checks.
 
@@ -27,27 +27,27 @@ Design periodic photonic gratings and inspect the Maxwell field, spectrum and nu
 
 Stored Maxwell simulation, not a fabricated-device measurement. [Figure source and terms](assets/profile-v3/PROVENANCE.md).
 
-### SiliconPilot
+### [SiliconPilot](https://nazeeh111.github.io/work/siliconpilot/)
 
-Compile a small neural classifier into Verilog. Fixed-point RTL, simulation and synthesis.
+Compile a small neural classifier into fixed-point Verilog. Compare LUT counts and simulated latency across recorded FPGA designs.
 
 [Source](https://github.com/nazeeh111/SILICONPILOT) · [Recorded circuits](https://nazeeh111.github.io/SILICONPILOT/)
 
-### MaterialMind
+### [MaterialMind](https://nazeeh111.github.io/work/materialmind/)
 
-Explore crystal-stability predictions and their uncertainty. Retrospective models against archived DFT.
+Compare crystal-stability predictions with archived DFT. In the recorded PaMnF6 query, the reference falls outside the stated prediction interval.
 
 [Source](https://github.com/nazeeh111/MaterialMind) · [Worked crystal example](https://github.com/nazeeh111/MaterialMind/blob/c879afa4b616649cac73ef46b010f24e12ed3544/docs/presentation/README.md)
 
-### MorphProof
+### [MorphProof](https://nazeeh111.github.io/work/morphproof/)
 
-Translate supported numerical Python to Rust and reduce disagreements. Finite behavioral checks and reduced counterexamples.
+Translate supported numerical Python to Rust. In the worked case, a one-element input exposes a deliberately omitted loop.
 
 [Compiler and Studio](https://github.com/nazeeh111/MorphProof)
 
-### LadderProof
+### [LadderProof](https://nazeeh111.github.io/work/ladderproof/)
 
-Bound resistor tolerances in ideal ladder DACs. Ideal static circuits with independent verification.
+Find where an ideal resistor-ladder DAC can step backward. Independently verify which resistor tolerances prevent it in the circuit model.
 
 [Circuit workbench and source](https://github.com/nazeeh111/LadderProof)
 
