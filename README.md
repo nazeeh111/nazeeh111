@@ -27,36 +27,29 @@ Design periodic photonic gratings and inspect the Maxwell field, spectrum and nu
 
 Stored Maxwell simulation, not a fabricated-device measurement. [Figure source and terms](assets/profile-v3/PROVENANCE.md).
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/nazeeh111/SILICONPILOT">SiliconPilot</a></h3>
-<p>Compile a small neural classifier into Verilog.</p>
-<p><sub>Fixed-point RTL, simulation and synthesis.</sub></p>
-<a href="https://nazeeh111.github.io/SILICONPILOT/">Recorded circuits</a>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/nazeeh111/MaterialMind">MaterialMind</a></h3>
-<p>Explore crystal-stability predictions and their uncertainty.</p>
-<p><sub>Retrospective models against archived DFT.</sub></p>
-<a href="https://github.com/nazeeh111/MaterialMind/blob/c879afa4b616649cac73ef46b010f24e12ed3544/docs/presentation/README.md">Worked crystal example</a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/nazeeh111/MorphProof">MorphProof</a></h3>
-<p>Translate supported numerical Python to Rust and reduce disagreements.</p>
-<p><sub>Finite behavioral checks and reduced counterexamples.</sub></p>
-<a href="https://github.com/nazeeh111/MorphProof">Compiler and Studio</a>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/nazeeh111/LadderProof">LadderProof</a></h3>
-<p>Bound resistor tolerances in ideal ladder DACs.</p>
-<p><sub>Ideal static circuits with independent verification.</sub></p>
-<a href="https://github.com/nazeeh111/LadderProof">Circuit workbench and source</a>
-</td>
-</tr>
-</table>
+### SiliconPilot
+
+Compile a small neural classifier into Verilog. Fixed-point RTL, simulation and synthesis.
+
+[Source](https://github.com/nazeeh111/SILICONPILOT) · [Recorded circuits](https://nazeeh111.github.io/SILICONPILOT/)
+
+### MaterialMind
+
+Explore crystal-stability predictions and their uncertainty. Retrospective models against archived DFT.
+
+[Source](https://github.com/nazeeh111/MaterialMind) · [Worked crystal example](https://github.com/nazeeh111/MaterialMind/blob/c879afa4b616649cac73ef46b010f24e12ed3544/docs/presentation/README.md)
+
+### MorphProof
+
+Translate supported numerical Python to Rust and reduce disagreements. Finite behavioral checks and reduced counterexamples.
+
+[Compiler and Studio](https://github.com/nazeeh111/MorphProof)
+
+### LadderProof
+
+Bound resistor tolerances in ideal ladder DACs. Ideal static circuits with independent verification.
+
+[Circuit workbench and source](https://github.com/nazeeh111/LadderProof)
 
 <a id="research-you-can-inspect"></a>
 ## Research
