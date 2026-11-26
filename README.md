@@ -1,11 +1,6 @@
-<a id="nazeeh-abdul-hadi"></a>
+<a href="https://nazeeh111.github.io/"><picture>  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile-v4/cover-mobile-dark.png">  <source media="(max-width: 600px)" srcset="assets/profile-v4/cover-mobile-light.png">  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-v4/cover-wide-dark.png">  <img src="assets/profile-v4/cover-wide-light.png" width="1000" alt="Nazeeh Abdul-Hadi, electrical engineering and physics at Virginia Tech. SiliconPilot classifier: 4 inputs, 8 hidden units and 2 scores, illustrated using the compiled model weights."> </picture></a>
 
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile-v3/cover-mobile-dark.png">
-  <source media="(max-width: 600px)" srcset="assets/profile-v3/cover-mobile-light.png">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-v3/cover-wide-dark.png">
-  <img src="assets/profile-v3/cover-wide-light.png" width="1000" alt="Nazeeh Abdul-Hadi. Electrical engineering and physics at Virginia Tech.">
-</picture>
+<sub>SiliconPilot compiled classifier weights · [Figure source and terms](assets/profile-v4/PROVENANCE.md)</sub>
 
 I study electrical engineering and physics at Virginia Tech. I build tools for models, circuits and scientific computing.
 

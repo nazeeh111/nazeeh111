@@ -3,11 +3,11 @@
   "images": {
     "assets/solidrift-comparison.svg": "assets/solidrift-comparison-provenance.md",
     "assets/solidrift-comparison-mobile.svg": "assets/solidrift-comparison-provenance.md",
-    "assets/profile-v3/cover-wide-light.png": "assets/profile-v3/PROVENANCE.md",
-    "assets/profile-v3/cover-wide-dark.png": "assets/profile-v3/PROVENANCE.md",
-    "assets/profile-v3/cover-mobile-light.png": "assets/profile-v3/PROVENANCE.md",
-    "assets/profile-v3/cover-mobile-dark.png": "assets/profile-v3/PROVENANCE.md",
     "assets/profile-v3/photonsmith.png": "assets/profile-v3/PROVENANCE.md",
-    "assets/profile-v3/photonsmith-mobile.png": "assets/profile-v3/PROVENANCE.md"
+    "assets/profile-v3/photonsmith-mobile.png": "assets/profile-v3/PROVENANCE.md",
+    "assets/profile-v4/cover-wide-light.png": "assets/profile-v4/PROVENANCE.md",
+    "assets/profile-v4/cover-wide-dark.png": "assets/profile-v4/PROVENANCE.md",
+    "assets/profile-v4/cover-mobile-light.png": "assets/profile-v4/PROVENANCE.md",
+    "assets/profile-v4/cover-mobile-dark.png": "assets/profile-v4/PROVENANCE.md"
   }
 }

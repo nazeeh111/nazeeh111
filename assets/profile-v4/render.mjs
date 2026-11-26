@@ -1,0 +1,4 @@
+import {chromium} from '/Users/nazeeh/.nvm/versions/node/v24.14.0/lib/node_modules/playwright/index.mjs';
+import {pathToFileURL} from 'node:url';import path from 'node:path';
+const browser=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});
+for(const mobile of [false,true])for(const dark of [false,true]){const page=await browser.newPage({viewport:mobile?{width:720,height:850}:{width:1200,height:520},deviceScaleFactor:1});let url=pathToFileURL(path.resolve('cover.html')).href+'?'+[mobile?'mobile':'',dark?'dark':''].filter(Boolean).join('&');await page.goto(url);await page.locator('img').evaluate(el=>el.decode());await page.screenshot({path:`cover-${mobile?'mobile':'wide'}-${dark?'dark':'light'}.png`});await page.close()};await browser.close();
